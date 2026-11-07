@@ -1,0 +1,53 @@
+
+name: Meds Cafe Intelligence
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # 6 AM Eastern, daylight saving time
+    - cron: "0 10 * * *"
+
+    # 6 AM Eastern, standard time
+    - cron: "0 11 * * *"
+
+    # Additional checks throughout the day
+    - cron: "0 14,18,22 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: meds-cafe-intel
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install OpenAI
+        run: pip install openai
+
+      - name: Generate intelligence
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python research.py
+
+      - name: Publish widget updates
+        run: |
+          git config user.name "meds-cafe-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add intel.json intel_history.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Meds Cafe intelligence"
+            git push
+          fi

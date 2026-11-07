@@ -1,272 +1,338 @@
 {
-  "updated_at": "2026-11-07T17:01:50.368417+00:00",
-  "status": "partial",
+  "updated_at": "2026-11-07T17:08:29.927264+00:00",
+  "status": "ok",
   "michigan_updates": [
     {
       "headline": "Michigan CRA and The Gummie Joint recall naked Hippie Lucky Berry gummies - MMJDaily",
-      "summary": "Michigan CRA and The Gummie Joint have issued a recall for naked Hippie Lucky Berry gummies due to reported adverse effects.",
-      "impact": "Potential consumer safety concerns and regulatory scrutiny for Michigan cannabis stores involved.",
+      "summary": "The Michigan Cannabis Regulatory Agency (CRA) and The Gummie Joint have issued a recall for Naked Hippie Lucky Berry gummies due to consumer complaints.",
+      "impact": "Potential supply disruption and reputational risk for retailers carrying this product; increased scrutiny on product safety.",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWGVSM0tta282T2JZcFB1clA1UU03bzZxcS0wODdIRkI2M2p3TkRueVM2VVZ6cXZrc0Nra3A4bWlLdjNncHZSZ05pWDZqUFpkTUE1em5MUjA2dHBrN2ZDZnlEeWhRd01RMnhGZVhMbXFhWG1fd3U4VlVueTVfeUtoRmN3ODJveWxvcDlCVjA4aVU3S0RmS1VQX2FtYW9XSWtxclFyb1Bva0RBX0h5ekptT0Z1OEJsUQ?oc=5",
-      "date": "Fri, 06 Nov 2026 15:46:20 GMT",
+      "date": "2026-11-06T15:46:20+00:00",
       "significant": false,
-      "recommended_action": "Monitor recall developments and ensure compliance with CRA directives; review product safety protocols.",
-      "verification": "unverified"
+      "recommended_action": "Review inventory for affected products and remove them promptly; communicate recall information to customers; monitor CRA updates for further recalls.",
+      "verification": "unverified",
+      "publisher": "MMJDaily",
+      "source_type": "news"
     },
     {
       "headline": "Michigan Recalls Naked Hippie Gummies After Buyers Report Bad Highs, Stomach Pain - Hoodline",
-      "summary": "Following consumer reports of bad highs and stomach pain, Michigan authorities have recalled Naked Hippie gummies.",
-      "impact": "Increased regulatory attention on product quality and safety for Michigan cannabis retailers.",
+      "summary": "Following consumer reports of adverse effects including bad highs and stomach pain, Michigan authorities recalled Naked Hippie gummies.",
+      "impact": "Heightened consumer safety concerns; potential liability and supply chain interruptions.",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM244TlJMZExsd3RDeUQzb3NkUy03OFZvVGhURmtSWU04MWNyNzhxWHJzODZpYzR4c3R0T1Y3ajRaM1BxcUFZTDkwTHBEbEx2OWY1T1hDZmxSU3pmaHdUN0V2ZnVTd3luY0FScEQ3c2ppaGhDWTlaWmlrclFieDMzLXBMSFM3RXlhUFJSRUhBV0hTSi14RExNNDRPSDRFSGJoVnF0bURiYUpMVVpWMGRv?oc=5",
-      "date": "Sat, 07 Nov 2026 14:07:09 GMT",
+      "date": "2026-11-07T14:07:09+00:00",
       "significant": false,
-      "recommended_action": "Stay updated on recall status; communicate with customers and suppliers; enhance quality assurance measures.",
-      "verification": "unverified"
+      "recommended_action": "Ensure compliance with recall directives; assess product safety protocols; consider alternative product sourcing to maintain supply.",
+      "verification": "unverified",
+      "publisher": "Hoodline",
+      "source_type": "news"
     },
     {
       "headline": "What Democratic control means for Michigan’s floundering weed companies - Crain's Detroit",
-      "summary": "Analysis of the impact of Democratic political control on Michigan's struggling cannabis companies.",
-      "impact": "Potential shifts in political environment affecting cannabis business operations and market conditions.",
+      "summary": "Analysis of how Democratic political control in Michigan might influence the cannabis industry, including regulatory and market impacts.",
+      "impact": "Potential changes in regulatory environment and licensing policies; uncertain effects on market competition and operations.",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVkdWS1d1UkZLRlE3YThOclNXd1B1S19wbjVudlB3bk5xdmdrdWFZR01PY3ZZWWRrbFJ4TkEzOXJjbTB2SG9kcUxXTGpOWjc4MlJWc003a3dhSTkzel93c2gybHZjeDExczl5a0VGMllSTHQ2RmdpYngzb2lDNWo3YWxCNjV5Rk5VbUJUaFVwMEphUQ?oc=5",
-      "date": "Thu, 05 Nov 2026 10:45:00 GMT",
+      "date": "2026-11-05T10:45:00+00:00",
       "significant": false,
-      "recommended_action": "Monitor legislative developments; assess potential impacts on business strategy and compliance.",
-      "verification": "unverified"
+      "recommended_action": "Monitor legislative developments closely; engage with industry associations; prepare for potential regulatory shifts affecting licensing and operations.",
+      "verification": "unverified",
+      "publisher": "Crain's Detroit",
+      "source_type": "news"
     }
   ],
   "michigan": {
     "headline": "Michigan CRA and The Gummie Joint recall naked Hippie Lucky Berry gummies - MMJDaily",
-    "summary": "Michigan CRA and The Gummie Joint have issued a recall for naked Hippie Lucky Berry gummies due to reported adverse effects.",
-    "impact": "Potential consumer safety concerns and regulatory scrutiny for Michigan cannabis stores involved.",
+    "summary": "The Michigan Cannabis Regulatory Agency (CRA) and The Gummie Joint have issued a recall for Naked Hippie Lucky Berry gummies due to consumer complaints.",
+    "impact": "Potential supply disruption and reputational risk for retailers carrying this product; increased scrutiny on product safety.",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWGVSM0tta282T2JZcFB1clA1UU03bzZxcS0wODdIRkI2M2p3TkRueVM2VVZ6cXZrc0Nra3A4bWlLdjNncHZSZ05pWDZqUFpkTUE1em5MUjA2dHBrN2ZDZnlEeWhRd01RMnhGZVhMbXFhWG1fd3U4VlVueTVfeUtoRmN3ODJveWxvcDlCVjA4aVU3S0RmS1VQX2FtYW9XSWtxclFyb1Bva0RBX0h5ekptT0Z1OEJsUQ?oc=5",
-    "date": "Fri, 06 Nov 2026 15:46:20 GMT",
+    "date": "2026-11-06T15:46:20+00:00",
     "significant": false,
-    "recommended_action": "Monitor recall developments and ensure compliance with CRA directives; review product safety protocols.",
-    "verification": "unverified"
+    "recommended_action": "Review inventory for affected products and remove them promptly; communicate recall information to customers; monitor CRA updates for further recalls.",
+    "verification": "unverified",
+    "publisher": "MMJDaily",
+    "source_type": "news"
   },
   "federal_updates": [
     {
-      "headline": "DEA Issues First Federal Registrations to 900 Dispensaries, But Dual-Licence States Remain Uncertain - Business of Cannabis",
-      "summary": "DEA has granted federal registrations to over 900 medical cannabis dispensaries, though uncertainty remains for states with dual licensing.",
-      "impact": "Federal recognition may provide tax and operational benefits; dual-license states should monitor regulatory clarity.",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLVNIV3VPUV9VWjJEM0p4ejZWOGFnanYzNEtjTWktczg3V2RDTGNNLVlHbEVvSkxlbXoxOUVjcHVPSkxDZDVBZFFNQk1RZng5UjhCdk42a2pWSHgxZmVsOHdBN01LWWlSS0Y0RGJOSFZRMXBPamJnMUdFS3FKT0xGX2JjTjI0UzhoU0xmSjVyY3E3MU85WENoSmVBUXh0bHowRjcxX0hRc0hWT0duTEUyM3hDTnR2OTQyYUh3QUN5WnJXNkFKV2JEWXdsSQ?oc=5",
-      "date": "Mon, 02 Nov 2026 16:25:09 GMT",
-      "significant": false,
-      "recommended_action": "Evaluate eligibility for federal registration benefits; prepare for compliance with DEA requirements.",
-      "verification": "unverified"
-    },
-    {
       "headline": "DEA Rules for Schedule III Medical Cannabis Registrants Pose Major Disruptions to State Programs - Cannabis Business Times",
-      "summary": "New DEA rules for Schedule III medical cannabis registrants could disrupt existing state cannabis programs.",
-      "impact": "Potential operational and regulatory challenges for medical cannabis businesses under Schedule III classification.",
+      "summary": "The DEA has issued new rules for Schedule III medical cannabis registrants that may disrupt existing state cannabis programs.",
+      "impact": "Possible operational and compliance challenges for medical cannabis businesses; uncertainty in federal-state regulatory alignment.",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPRnJZSmFldVlidkxZSjlMYXhjRnItQmM1ZXlUUUw3YzUydTlDa1djNjBSdUx5WlllNEgwZXNBNHo1b1E5TURWaVU4S0JURWhCN21pa0tfNm9zLUpOLUxoOGItYjBuajNQeGx4SmlES0hRTGluQzJjOGliNmx0NzRTMlA4RERpbkNEZGRGMFVoVktGVVFvU01KV2VmTVdHZnRnNlJIZjBjYndNck9PYXB2V3VHZ2Nfa0lwSUZZZ2p0Y1FpaVVMdTZLckpWcnpWUl84elNWZFVMNDVsWEZDc0hmSkhZZFc0UEdyUGJMVDF0WDNIeWx2TmdIbkIzZHhDS2M?oc=5",
-      "date": "Mon, 02 Nov 2026 14:08:55 GMT",
+      "date": "2026-11-02T14:08:55+00:00",
       "significant": false,
-      "recommended_action": "Review DEA rule changes; assess impact on state program compliance and business operations.",
-      "verification": "unverified"
+      "recommended_action": "Evaluate compliance requirements under new DEA rules; consult legal counsel to mitigate disruptions; adjust operational protocols accordingly.",
+      "verification": "unverified",
+      "publisher": "Cannabis Business Times",
+      "source_type": "news"
     },
     {
-      "headline": "Feds grant protections to 900+ cannabis businesses—with major exceptions (Newsletter: November 2, 2026) - Marijuana Moment",
-      "summary": "Federal protections have been granted to over 900 cannabis businesses, though some exceptions apply.",
-      "impact": "Businesses with federal protections may benefit from reduced enforcement risk; exceptions require attention.",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZmFPY0N6TS1QSnQxUy1aX1lZUG9aN1J0YkM5UFFuQWZmQWhaelhRaS01RlZGRjRtRjl3eDdUMGdzVlViVU1zdDluQUFndFdBVnJXWndZNGd0SkNaRG9PM1VLVWVuX01OelBrQ09WbGtxVVF6TUQtLWlfdGwyNUFkWnVHaWtJcFk1REJwNXVKY0diZGppWG1FeS00RnUxV3RzbFBPLU9XZmprZzFKaVBoNEluMTBWcUstaENCSFc5RkpuU0VBSjI0LXNrRQ?oc=5",
-      "date": "Mon, 02 Nov 2026 12:38:43 GMT",
+      "headline": "DEA Issues First Federal Registrations to 900 Dispensaries, But Dual-Licence States Remain Uncertain - Business of Cannabis",
+      "summary": "DEA has granted federal registrations to over 900 dispensaries, though states with dual-licensing systems face ongoing uncertainty.",
+      "impact": "Potential federal tax relief and legitimacy for registered dispensaries; unclear implications for dual-licensing states.",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLVNIV3VPUV9VWjJEM0p4ejZWOGFnanYzNEtjTWktczg3V2RDTGNNLVlHbEVvSkxlbXoxOUVjcHVPSkxDZDVBZFFNQk1RZng5UjhCdk42a2pWSHgxZmVsOHdBN01LWWlSS0Y0RGJOSFZRMXBPamJnMUdFS3FKT0xGX2JjTjI0UzhoU0xmSjVyY3E3MU85WENoSmVBUXh0bHowRjcxX0hRc0hWT0duTEUyM3hDTnR2OTQyYUh3QUN5WnJXNkFKV2JEWXdsSQ?oc=5",
+      "date": "2026-11-02T16:25:09+00:00",
       "significant": false,
-      "recommended_action": "Confirm eligibility for federal protections; monitor exceptions and compliance requirements.",
-      "verification": "unverified"
+      "recommended_action": "Consider applying for federal registration if eligible; assess impact on tax obligations and compliance; monitor developments in dual-licensing states.",
+      "verification": "unverified",
+      "publisher": "Business of Cannabis",
+      "source_type": "news"
     },
     {
-      "headline": "DEA registers medical marijuana dispensaries, potentially unlocking tax breaks - Los Angeles Times",
-      "summary": "DEA registration of medical marijuana dispensaries may enable access to tax benefits previously unavailable.",
-      "impact": "Potential financial benefits for registered dispensaries; opportunity to optimize tax strategies.",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM0lOOGV3NGhjaFk5bWdoTHlXZUhGMzRiZ09yQ1hhU3RhemtpNmY3QW1rb3liQkFWQnJzYlA1ZEJKcFZDQ3ZIcXNCZWV0TXRXU1dtMjZuQ3VQd2pCbE45WHJCbnpudzZ1OWlneGJ2WkFCc0pKWmZibGJIRlJKWmVWNTdhYTc5Q0MxS0lnLThTZGlxUUZsNk9vY1ltZlgyM0V3YkJIMWJ0SzlpQmpwTTV3X2wwZExRVnlEYTNFR0I2OEhEODNfdEE?oc=5",
-      "date": "Mon, 02 Nov 2026 15:06:12 GMT",
+      "headline": "Cannabis Client Alert – Week of November 2, 2026 - Dentons",
+      "summary": "Weekly client alert covering recent federal cannabis regulatory updates and legal considerations.",
+      "impact": "Provides timely information on federal cannabis policy changes affecting business operations and compliance.",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMDR4TFYwR0dmdDhhVVBrNVBZeWx5VUhBR0pxRkNSY2Y0bEs2OUxteThzeDhMQjJGbUVINlFSaUVpT0J5OFQ0SkJ3RW9ja2g2dG5sazRzR0J2eVVBRFAxVjliVkRJWFNDR21yOFFQM2d4RFA4eEtUU0RtYVZaaXhrSjQxRnFJbFdacVFfaTdUd0RHelEzZmlvMHVlelNNWmEyMkhqMFRHWEVGZUQ0Zi1RQVg1WXUwMnBfTkFhTnpVOFNxbmw1REJDQzVDVVA?oc=5",
+      "date": "2026-11-04T22:15:21+00:00",
       "significant": false,
-      "recommended_action": "Explore tax planning opportunities related to DEA registration; consult tax professionals.",
-      "verification": "unverified"
+      "recommended_action": "Review alert for relevant regulatory updates; adjust compliance and operational strategies as needed.",
+      "verification": "unverified",
+      "publisher": "Dentons",
+      "source_type": "news"
+    },
+    {
+      "headline": "DEA Marijuana Rescheduling Hearing Closes With Government Not Meeting Its Burden Of Proof? - Newswire",
+      "summary": "The federal hearing on marijuana rescheduling concluded with questions about whether the government met its burden of proof.",
+      "impact": "Uncertainty remains regarding federal marijuana rescheduling; potential delays in regulatory changes affecting taxation and enforcement.",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFBTRXEyalFKOHdsZG1NYnhveG8ycW5nS245WmZpUFM1anFwT1YtYWVyazYzdERSZThIcnRUS2RRd2VNQm4tUXlBWU81ZHFnb3dJVFluSGhhM3ZYQjNkYjhpbEFfZlp4NHNJZ3NuSFdzM05FQ0hVam9leHZKZ082djd2R0FRb3VyaHZkV3I1YXVzVDNwbU01Z205emV2ZjhudjJ0N25YbzUyTzl2?oc=5",
+      "date": "2026-11-07T12:30:00+00:00",
+      "significant": false,
+      "recommended_action": "Maintain awareness of federal rescheduling developments; prepare for continued regulatory uncertainty; consider tax planning under current 280E rules.",
+      "verification": "unverified",
+      "publisher": "Newswire",
+      "source_type": "news"
     },
     {
       "headline": "Major Changes to Hemp Regulation Are Taking Effect: Is Your Business Ready? - Dentons",
-      "summary": "Significant regulatory changes to hemp policy are being implemented, affecting compliance and operations.",
-      "impact": "Hemp businesses must adapt to new regulations to maintain compliance and avoid penalties.",
+      "summary": "New federal hemp regulations with tighter THC thresholds and restrictions on converted cannabinoids are coming into effect.",
+      "impact": "Hemp businesses must comply with stricter THC limits; potential impact on product formulations and supply chains.",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNExUQ2F0MndVVkwwSU5QM3BYamhaMzJUSC1fTExTT0RkN3JvcVdFQzZIdEtjLUp2eEpVeUo4a0tzTExoUFphc2l4YkV4SjFZVEtmTHlSbTNrMHk4Mm9PR25nWjVnVWx3b2RNb0FaZkZmNWZWbXpmTGpsWDRsenhmV0Q5dHZtYzdJLUw3Y3RjanNWbUxGNGtpSkhsM3lIUEpKWElmUzRDLUlqeEM4Sm11M0lhLWJVQkZlMFZLNWRPaHhnQWpUU1Z3ZkJRaXRQVUU?oc=5",
-      "date": "Wed, 04 Nov 2026 16:20:21 GMT",
+      "date": "2026-11-04T16:20:21+00:00",
       "significant": false,
-      "recommended_action": "Review and update compliance programs to align with new hemp regulations; train staff accordingly.",
-      "verification": "unverified"
+      "recommended_action": "Review product formulations for compliance with new THC thresholds; update quality control and testing protocols; communicate changes to suppliers and customers.",
+      "verification": "unverified",
+      "publisher": "Dentons",
+      "source_type": "news"
     }
   ],
   "federal": {
-    "headline": "DEA Issues First Federal Registrations to 900 Dispensaries, But Dual-Licence States Remain Uncertain - Business of Cannabis",
-    "summary": "DEA has granted federal registrations to over 900 medical cannabis dispensaries, though uncertainty remains for states with dual licensing.",
-    "impact": "Federal recognition may provide tax and operational benefits; dual-license states should monitor regulatory clarity.",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLVNIV3VPUV9VWjJEM0p4ejZWOGFnanYzNEtjTWktczg3V2RDTGNNLVlHbEVvSkxlbXoxOUVjcHVPSkxDZDVBZFFNQk1RZng5UjhCdk42a2pWSHgxZmVsOHdBN01LWWlSS0Y0RGJOSFZRMXBPamJnMUdFS3FKT0xGX2JjTjI0UzhoU0xmSjVyY3E3MU85WENoSmVBUXh0bHowRjcxX0hRc0hWT0duTEUyM3hDTnR2OTQyYUh3QUN5WnJXNkFKV2JEWXdsSQ?oc=5",
-    "date": "Mon, 02 Nov 2026 16:25:09 GMT",
+    "headline": "DEA Rules for Schedule III Medical Cannabis Registrants Pose Major Disruptions to State Programs - Cannabis Business Times",
+    "summary": "The DEA has issued new rules for Schedule III medical cannabis registrants that may disrupt existing state cannabis programs.",
+    "impact": "Possible operational and compliance challenges for medical cannabis businesses; uncertainty in federal-state regulatory alignment.",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPRnJZSmFldVlidkxZSjlMYXhjRnItQmM1ZXlUUUw3YzUydTlDa1djNjBSdUx5WlllNEgwZXNBNHo1b1E5TURWaVU4S0JURWhCN21pa0tfNm9zLUpOLUxoOGItYjBuajNQeGx4SmlES0hRTGluQzJjOGliNmx0NzRTMlA4RERpbkNEZGRGMFVoVktGVVFvU01KV2VmTVdHZnRnNlJIZjBjYndNck9PYXB2V3VHZ2Nfa0lwSUZZZ2p0Y1FpaVVMdTZLckpWcnpWUl84elNWZFVMNDVsWEZDc0hmSkhZZFc0UEdyUGJMVDF0WDNIeWx2TmdIbkIzZHhDS2M?oc=5",
+    "date": "2026-11-02T14:08:55+00:00",
     "significant": false,
-    "recommended_action": "Evaluate eligibility for federal registration benefits; prepare for compliance with DEA requirements.",
-    "verification": "unverified"
+    "recommended_action": "Evaluate compliance requirements under new DEA rules; consult legal counsel to mitigate disruptions; adjust operational protocols accordingly.",
+    "verification": "unverified",
+    "publisher": "Cannabis Business Times",
+    "source_type": "news"
   },
   "virginia_updates": [
     {
       "headline": "As Virginia Prepares for Cannabis Licensing, Stafford Event Connects Prospective Operators with State Regulators and Industry Experts - Outlaw Report",
-      "summary": "An event in Stafford, Virginia, is facilitating connections between prospective cannabis operators, state regulators, and industry experts ahead of licensing.",
-      "impact": "Opportunity for operators to gain insights and prepare for Virginia cannabis licensing requirements.",
+      "summary": "An event in Stafford, Virginia, connected prospective cannabis operators with state regulators and industry experts ahead of licensing.",
+      "impact": "Opportunity for Meds Cafe to gain insights on Virginia licensing processes and regulatory expectations.",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPb1lEVERkaWtuM0xqY1RLV2lEeldXZlpGMnFEY09GS1JkSjFTZXN0OW84WmE0OWpJaTBQOTM4NXVqZXNmX0lnOVBvcUlxN2VoUHJYVU11QU9VVk4teGNBc21hOVhLbmVqM2VMWGZ0MF82OXJiMW5WeFY4WG1wMkFlQmtKTGYwdGpEVmFteU10amUxcnFVM3FXZXlNNi05NGV0alBEdVV3eGxvLXJiMzJKd1pMOGpmeGlKajZWejRSbUpOZE5STWJvUVhSV2lfUXdmTkRFS19RSjdiaXV3dUp5NFdpUm5pQ3JaRmFtSVNJUQ?oc=5",
-      "date": "Tue, 03 Nov 2026 13:35:24 GMT",
+      "date": "2026-11-03T13:35:24+00:00",
       "significant": false,
-      "recommended_action": "Engage with state regulators and industry experts; prepare licensing applications accordingly.",
-      "verification": "unverified"
-    },
-    {
-      "headline": "Labor Peace Agreements in Virginia: What Investors and Operators Need to Know - Vicente LLP",
-      "summary": "Guidance on labor peace agreements relevant to cannabis investors and operators in Virginia.",
-      "impact": "Important compliance consideration for Virginia cannabis licensees involving labor relations.",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbnE2ZG5CUXRab2NHM003MG9MNXN3ZGVmRnNIczEwTjBHeGFrMG11dk83UjB0LXdHWjgxOVVCVndQdTRRb0kwYU4yaGdpMklLMVZXYU4xcHlHRFV5c3o4eDRpTnFRR2QyY196YjFya3JEU3JJYm8wbU1Pd0hkYTdPZkJVWUdjZDFVeEVlUk1QVmF1dW4xbV9uOHRuVEk2SC1WNVJMYVhLVnVZelNuV2c?oc=5",
-      "date": "Tue, 03 Nov 2026 23:45:08 GMT",
-      "significant": false,
-      "recommended_action": "Review labor peace agreement requirements; consult legal counsel to ensure compliance.",
-      "verification": "unverified"
-    },
-    {
-      "headline": "Cannabis Client Alert – Week of November 2, 2026 - Dentons",
-      "summary": "Weekly client alert covering cannabis regulatory updates relevant to Virginia and other states.",
-      "impact": "Stay informed on evolving cannabis regulations affecting Virginia operators.",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMDR4TFYwR0dmdDhhVVBrNVBZeWx5VUhBR0pxRkNSY2Y0bEs2OUxteThzeDhMQjJGbUVINlFSaUVpT0J5OFQ0SkJ3RW9ja2g2dG5sazRzR0J2eVVBRFAxVjliVkRJWFNDR21yOFFQM2d4RFA4eEtUU0RtYVZaaXhrSjQxRnFJbFdacVFfaTdUd0RHelEzZmlvMHVlelNNWmEyMkhqMFRHWEVGZUQ0Zi1RQVg1WXUwMnBfTkFhTnpVOFNxbmw1REJDQzVDVVA?oc=5",
-      "date": "Wed, 04 Nov 2026 22:15:21 GMT",
-      "significant": false,
-      "recommended_action": "Regularly review client alerts to maintain regulatory compliance and adapt business practices.",
-      "verification": "unverified"
+      "recommended_action": "Consider attending similar events or engaging with Virginia regulators; prepare for licensing application requirements and timelines.",
+      "verification": "unverified",
+      "publisher": "Outlaw Report",
+      "source_type": "news"
     },
     {
       "headline": "DEA Rules for Schedule III Medical Cannabis Registrants Pose Major Disruptions to State Programs - Cannabis Business Times",
-      "summary": "DEA's new rules for Schedule III medical cannabis registrants may disrupt Virginia's state cannabis programs.",
-      "impact": "Potential regulatory and operational challenges for Virginia medical cannabis businesses.",
+      "summary": "Federal DEA rules for Schedule III medical cannabis registrants may disrupt state cannabis programs, including Virginia's.",
+      "impact": "Potential compliance challenges for Virginia medical cannabis operators; uncertainty in federal-state regulatory alignment.",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPRnJZSmFldVlidkxZSjlMYXhjRnItQmM1ZXlUUUw3YzUydTlDa1djNjBSdUx5WlllNEgwZXNBNHo1b1E5TURWaVU4S0JURWhCN21pa0tfNm9zLUpOLUxoOGItYjBuajNQeGx4SmlES0hRTGluQzJjOGliNmx0NzRTMlA4RERpbkNEZGRGMFVoVktGVVFvU01KV2VmTVdHZnRnNlJIZjBjYndNck9PYXB2V3VHZ2Nfa0lwSUZZZ2p0Y1FpaVVMdTZLckpWcnpWUl84elNWZFVMNDVsWEZDc0hmSkhZZFc0UEdyUGJMVDF0WDNIeWx2TmdIbkIzZHhDS2M?oc=5",
-      "date": "Mon, 02 Nov 2026 14:08:55 GMT",
+      "date": "2026-11-02T14:08:55+00:00",
       "significant": false,
-      "recommended_action": "Assess impact of DEA rules on Virginia operations; prepare for compliance adjustments.",
-      "verification": "unverified"
+      "recommended_action": "Monitor federal rule impacts on Virginia operations; consult legal counsel to ensure compliance; adjust business plans accordingly.",
+      "verification": "unverified",
+      "publisher": "Cannabis Business Times",
+      "source_type": "news"
+    },
+    {
+      "headline": "DEA Issues First Federal Registrations to 900 Dispensaries, But Dual-Licence States Remain Uncertain - Business of Cannabis",
+      "summary": "DEA has granted federal registrations to 900 dispensaries, but states with dual-licensing systems like Virginia face uncertainty.",
+      "impact": "Potential federal legitimacy and tax benefits for registered dispensaries; unclear effects on Virginia's dual-licensing framework.",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQLVNIV3VPUV9VWjJEM0p4ejZWOGFnanYzNEtjTWktczg3V2RDTGNNLVlHbEVvSkxlbXoxOUVjcHVPSkxDZDVBZFFNQk1RZng5UjhCdk42a2pWSHgxZmVsOHdBN01LWWlSS0Y0RGJOSFZRMXBPamJnMUdFS3FKT0xGX2JjTjI0UzhoU0xmSjVyY3E3MU85WENoSmVBUXh0bHowRjcxX0hRc0hWT0duTEUyM3hDTnR2OTQyYUh3QUN5WnJXNkFKV2JEWXdsSQ?oc=5",
+      "date": "2026-11-02T16:25:09+00:00",
+      "significant": false,
+      "recommended_action": "Evaluate eligibility for federal registration; monitor state-federal regulatory developments; prepare for possible operational changes.",
+      "verification": "unverified",
+      "publisher": "Business of Cannabis",
+      "source_type": "news"
     },
     {
       "headline": "State-Commissioned Report Estimates Virginia's Annual Marijuana Market at Up to $1.27 Billion, With 872,216 Active Consumers - The Marijuana Herald",
-      "summary": "A report estimates Virginia's marijuana market size and consumer base, highlighting significant market potential.",
-      "impact": "Insight into market opportunity for Virginia cannabis businesses and investors.",
+      "summary": "A report estimates Virginia's marijuana market size at up to $1.27 billion annually with over 872,000 active consumers.",
+      "impact": "Indicates significant market opportunity for cannabis retailers in Virginia; potential for expansion and investment.",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObGZIa2hjSk01dEFlZ1VwUkJXV1BvSVpzbjVhMExWOEFfQnlUMHNTUjc1bXUyNnFaTlFZU1A1bUNJRi1GSUJVcjhKSnRGTnVLNVVWd2NjcnY2cjV3QjdQSUVqUWoyWDhsNU5yQUp1TUZpaThaSjJ4QWJ0WVRFd2VPdEZOV2NpTW4yZzFOWGJKdGdFTGZjX2dNUk1WWFc5WXJMMmxFV0Z3XzljNUxjcjBWVjh1WlljdXczT2s4RlZmMGZMVWZoNURRM0lVUDB2NkNUbHNLM0FnSVk1SlRlODhQS3I2SHZZc28zVnp5NFNDNHlfQQ?oc=5",
-      "date": "Fri, 06 Nov 2026 21:00:20 GMT",
+      "date": "2026-11-06T21:00:20+00:00",
       "significant": false,
-      "recommended_action": "Use market data to inform business planning and investment decisions in Virginia.",
-      "verification": "unverified"
+      "recommended_action": "Consider strategic expansion or partnerships in Virginia; analyze consumer demographics and market potential.",
+      "verification": "unverified",
+      "publisher": "The Marijuana Herald",
+      "source_type": "news"
+    },
+    {
+      "headline": "County, Towns Move to Enact Cannabis Ordinances Following State Changes - LoudounNow.com",
+      "summary": "Local jurisdictions in Virginia are enacting cannabis ordinances following recent state-level regulatory changes.",
+      "impact": "Potential variability in local cannabis regulations; need for compliance with both state and local rules.",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZjBJUlpCU21Ic3lXWGNjeU5UUlY2N3k4SlBGVi02SWgzcXRWX0M5djJlNklHd2hRdGczNEJzbnkwUUlFTnYzei1kek94Vm1zZGlQQVZsam9qWnBpb1IxaDJVeVpCSFY4QVBBOGQ0WlRGQzhvTVQxQ0VaOGRYbjU1aThPR21QZWZUMTlnTEFWNGZKeU11bmFsaDdXLWJPbDlaWGpyOHY3LU0zQ3p2TEFITW83WkNNcTFkN0dKN2d2X0ZzVXNQN0FRN25MTFJVVXNqY2Q2MG1XTlppS2FDNm5qenVxUlpBVTA?oc=5",
+      "date": "2026-11-05T20:28:00+00:00",
+      "significant": false,
+      "recommended_action": "Stay informed on local ordinances; ensure compliance with local cannabis regulations; engage with local authorities as needed.",
+      "verification": "unverified",
+      "publisher": "LoudounNow.com",
+      "source_type": "news"
     }
   ],
   "virginia": {
     "headline": "As Virginia Prepares for Cannabis Licensing, Stafford Event Connects Prospective Operators with State Regulators and Industry Experts - Outlaw Report",
-    "summary": "An event in Stafford, Virginia, is facilitating connections between prospective cannabis operators, state regulators, and industry experts ahead of licensing.",
-    "impact": "Opportunity for operators to gain insights and prepare for Virginia cannabis licensing requirements.",
+    "summary": "An event in Stafford, Virginia, connected prospective cannabis operators with state regulators and industry experts ahead of licensing.",
+    "impact": "Opportunity for Meds Cafe to gain insights on Virginia licensing processes and regulatory expectations.",
     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPb1lEVERkaWtuM0xqY1RLV2lEeldXZlpGMnFEY09GS1JkSjFTZXN0OW84WmE0OWpJaTBQOTM4NXVqZXNmX0lnOVBvcUlxN2VoUHJYVU11QU9VVk4teGNBc21hOVhLbmVqM2VMWGZ0MF82OXJiMW5WeFY4WG1wMkFlQmtKTGYwdGpEVmFteU10amUxcnFVM3FXZXlNNi05NGV0alBEdVV3eGxvLXJiMzJKd1pMOGpmeGlKajZWejRSbUpOZE5STWJvUVhSV2lfUXdmTkRFS19RSjdiaXV3dUp5NFdpUm5pQ3JaRmFtSVNJUQ?oc=5",
-    "date": "Tue, 03 Nov 2026 13:35:24 GMT",
+    "date": "2026-11-03T13:35:24+00:00",
     "significant": false,
-    "recommended_action": "Engage with state regulators and industry experts; prepare licensing applications accordingly.",
-    "verification": "unverified"
+    "recommended_action": "Consider attending similar events or engaging with Virginia regulators; prepare for licensing application requirements and timelines.",
+    "verification": "unverified",
+    "publisher": "Outlaw Report",
+    "source_type": "news"
   },
   "florida_updates": [
     {
       "headline": "Planet 13 Receives DEA Registrations for All 34 Florida Dispensaries - GlobeNewswire",
-      "summary": "Planet 13 has obtained DEA registrations for all 34 of its Florida dispensaries, marking a federal milestone.",
-      "impact": "Federal registration may provide operational and tax advantages for Planet 13's Florida stores.",
+      "summary": "Planet 13 has received federal DEA registrations for all 34 of its Florida medical marijuana dispensaries.",
+      "impact": "Federal registration may provide tax benefits and operational legitimacy; competitive advantage in Florida market.",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNa0FXcnNyajYwZlc2SUF6WDNyOXQxT3JIcl9CcVVib0M4enM5NGQ0dlkyeThqb2M3ZmZYbjJkc3pic1JnTzQ0aVRXS2MteGs1YXR2Y0JQV09UOXVMOXZGRkpIX0NjOTkxRzFnMFhDQnZPNjEySnhZVkE5WUJmaFhXaVVYdUVRN0c2NEJfQjM4NE1qOFZ1cXB3T19COHVtSERlUVBWWlNvVzI5ZE9Lcm9sSm51VGdIUmdHN01rc0Rjb012ZlhJVGZBYVdscGlHVE5hNl9BQXFxSQ?oc=5",
-      "date": "Wed, 04 Nov 2026 11:30:00 GMT",
+      "date": "2026-11-04T11:30:00+00:00",
       "significant": false,
-      "recommended_action": "Monitor Planet 13's federal registration impact; consider implications for Florida cannabis operators.",
-      "verification": "unverified"
-    },
-    {
-      "headline": "All 34 Planet 13 Florida stores are among the first registered in a federal medical marijuana system. - Stock Titan",
-      "summary": "Planet 13's Florida stores are pioneers in receiving federal medical marijuana registrations.",
-      "impact": "Sets precedent for federal recognition of Florida cannabis dispensaries.",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcDZFSXFMVm5NYzBtQUN3eWN2aW5FNDg4d1drMXR3X3o1ZjdMeHpsSzY2Q3dSRTZKVlJGRzVKNzE2YnIwVVI4OWJ1LU94ZHFuWjlxd2I1Qy1YNVBDT2w2LVQzcXRaUGZBM3k2X1Z6ZVZkMEFwdW42SXZCV0Jsbkh5d2RjdzdIOWN3VGJqQ3lDM05EX1hRX0Fpemk3UGRhQTdYd0hKVTJQLVl6SnRQTEJR?oc=5",
-      "date": "Wed, 04 Nov 2026 11:30:00 GMT",
-      "significant": false,
-      "recommended_action": "Track federal registration developments; evaluate benefits for Florida dispensaries.",
-      "verification": "unverified"
+      "recommended_action": "Evaluate implications of federal registration for Florida operations; consider similar registration for Meds Cafe if applicable.",
+      "verification": "unverified",
+      "publisher": "GlobeNewswire",
+      "source_type": "news"
     },
     {
       "headline": "All 41 of Vireo Growth’s Florida cannabis shops received federal registrations in an initial round. - Stock Titan",
-      "summary": "Vireo Growth's Florida cannabis shops have also received federal registrations, joining early registrants.",
-      "impact": "Federal registration may enhance operational legitimacy and tax positioning for Vireo Growth.",
+      "summary": "Vireo Growth's 41 Florida cannabis shops have received federal DEA registrations, enhancing their operational status.",
+      "impact": "Federal registration may improve tax treatment and regulatory compliance; increased competition in Florida.",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbk8yV3ZwY3hXQUZyUGtoVV9fNE5tY2ZZNm0tQ0RaRGhWQTF2REpzbVdwdjQzeVFVVWhjVGJQVHdoalpRNDBCYkZPRXJxb3N4cGtGaElNZnhOMEprTFFvSkJqZFpkZUJkaUl1MzVDSVhpY0FSaTQtT2Z6U0UyM2wyQ1lGNE9hMEQxU2syTmR3bklzeWpGZmc4RmxmWWxnQ2xrSVRlR1VtSjhDSG81TUtBckFpQVJVUXNnUXFj?oc=5",
-      "date": "Mon, 02 Nov 2026 22:14:00 GMT",
+      "date": "2026-11-02T22:14:00+00:00",
       "significant": false,
-      "recommended_action": "Consider federal registration benefits; monitor regulatory environment for Florida cannabis.",
-      "verification": "unverified"
+      "recommended_action": "Monitor competitive landscape; assess benefits of federal registration for Meds Cafe’s Florida operations.",
+      "verification": "unverified",
+      "publisher": "Stock Titan",
+      "source_type": "news"
     },
     {
       "headline": "DEA recognizes cannabis MSO Trulieve, denies marijuana rescheduling benefit to adult-use operators - MJBizDaily",
-      "summary": "DEA has recognized multi-state operator Trulieve but denied rescheduling benefits to adult-use cannabis operators.",
-      "impact": "Trulieve may gain federal advantages; adult-use operators should note ongoing regulatory limitations.",
+      "summary": "DEA has recognized Trulieve’s medical cannabis operations federally but denied rescheduling benefits to adult-use operators.",
+      "impact": "Medical cannabis operators may gain federal advantages; adult-use operators remain subject to current restrictions.",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUzFvTzZCbDlLNDlwcURHLXp0UWt4U2RxT3YzSEhnUnVVWnpjeW9xcHFxX3hLendJSmdmMTVlUlU0Q204aXB2dEg4S3hIMDBBT3pZbFN1Nms0QnRMelI2MkdKVlM5Q0MwMUQtSUc3ZUNMRWNuREZuNjdJSGx4bGdIbkRMS2p0SUlkQlB0LTBERFFrWWw0cjQ5Wk9KRnBlMWpsbTN0WHZDX2R3dnlVVkhCY0JDbGNMd24wc1lkTGJCazJNRTJDYmc?oc=5",
-      "date": "Tue, 03 Nov 2026 03:33:57 GMT",
+      "date": "2026-11-03T03:33:57+00:00",
       "significant": false,
-      "recommended_action": "Evaluate implications for adult-use operators; monitor Trulieve's federal status and benefits.",
-      "verification": "unverified"
+      "recommended_action": "Focus on medical cannabis compliance and federal registration; monitor adult-use regulatory developments.",
+      "verification": "unverified",
+      "publisher": "MJBizDaily",
+      "source_type": "news"
     },
     {
-      "headline": "Cannabis Client Alert – Week of November 2, 2026 - Dentons",
-      "summary": "Weekly cannabis regulatory update including Florida-specific developments.",
-      "impact": "Stay current on regulatory changes affecting Florida cannabis businesses.",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMDR4TFYwR0dmdDhhVVBrNVBZeWx5VUhBR0pxRkNSY2Y0bEs2OUxteThzeDhMQjJGbUVINlFSaUVpT0J5OFQ0SkJ3RW9ja2g2dG5sazRzR0J2eVVBRFAxVjliVkRJWFNDR21yOFFQM2d4RFA4eEtUU0RtYVZaaXhrSjQxRnFJbFdacVFfaTdUd0RHelEzZmlvMHVlelNNWmEyMkhqMFRHWEVGZUQ0Zi1RQVg1WXUwMnBfTkFhTnpVOFNxbmw1REJDQzVDVVA?oc=5",
-      "date": "Wed, 04 Nov 2026 22:15:21 GMT",
+      "headline": "State ban on intoxicating hemp products - Spectrum News",
+      "summary": "Florida has implemented a state ban on intoxicating hemp products.",
+      "impact": "Restrictions on hemp-derived intoxicating products may affect product offerings and supply chains.",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNWkyYklBaHZyalB1M1REZkoyZ3dCaEdPSWVKUVNIX3IzWnZHQS0tV2Z1OWQ5V0VXVzNKZmMwRjVDRi1LQU9jZVQ4WFZDQ2hSY3dWQUR3bW00OUpYbjlRZDNTNlg4WGh4LUJTLWx2d0Ztbm54cjcxeWVoM1dzMDg1ekN4bXd2UGRnbTBjaGVleGVmWmY3NFp4bldEYjRhUQ?oc=5",
+      "date": "2026-11-06T17:39:00+00:00",
       "significant": false,
-      "recommended_action": "Review alerts regularly to maintain compliance and adapt to regulatory changes.",
-      "verification": "unverified"
+      "recommended_action": "Review product lines for compliance; adjust inventory and marketing to exclude banned intoxicating hemp products.",
+      "verification": "unverified",
+      "publisher": "Spectrum News",
+      "source_type": "news"
+    },
+    {
+      "headline": "Planet 13 receives DEA registrations for all 34 Florida dispensaries - Mugglehead Investment Magazine",
+      "summary": "Planet 13 has secured DEA registrations for all its Florida dispensaries, marking a significant federal milestone.",
+      "impact": "Federal registration may provide tax and operational benefits; increased competition in Florida cannabis market.",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdVpaNGlkUEhhcVpFT0lYdWxFMldEQ0s5ZUJLTGhBSnFob0toQ2lFSGswNzhVd1NRQUIwT1VTYlhjOEdfYnFXanRCbHlOaFhKUkw0V0gzaXJYM2hITEVBOWg3VHY3dko4OURtSUtwdzFDY016ZjlIbEZxcjdPekZwbw?oc=5",
+      "date": "2026-11-04T12:52:09+00:00",
+      "significant": false,
+      "recommended_action": "Monitor competitive positioning; evaluate benefits of federal registration for Meds Cafe’s Florida operations.",
+      "verification": "unverified",
+      "publisher": "Mugglehead Investment Magazine",
+      "source_type": "news"
     }
   ],
   "florida": {
     "headline": "Planet 13 Receives DEA Registrations for All 34 Florida Dispensaries - GlobeNewswire",
-    "summary": "Planet 13 has obtained DEA registrations for all 34 of its Florida dispensaries, marking a federal milestone.",
-    "impact": "Federal registration may provide operational and tax advantages for Planet 13's Florida stores.",
+    "summary": "Planet 13 has received federal DEA registrations for all 34 of its Florida medical marijuana dispensaries.",
+    "impact": "Federal registration may provide tax benefits and operational legitimacy; competitive advantage in Florida market.",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNa0FXcnNyajYwZlc2SUF6WDNyOXQxT3JIcl9CcVVib0M4enM5NGQ0dlkyeThqb2M3ZmZYbjJkc3pic1JnTzQ0aVRXS2MteGs1YXR2Y0JQV09UOXVMOXZGRkpIX0NjOTkxRzFnMFhDQnZPNjEySnhZVkE5WUJmaFhXaVVYdUVRN0c2NEJfQjM4NE1qOFZ1cXB3T19COHVtSERlUVBWWlNvVzI5ZE9Lcm9sSm51VGdIUmdHN01rc0Rjb012ZlhJVGZBYVdscGlHVE5hNl9BQXFxSQ?oc=5",
-    "date": "Wed, 04 Nov 2026 11:30:00 GMT",
+    "date": "2026-11-04T11:30:00+00:00",
     "significant": false,
-    "recommended_action": "Monitor Planet 13's federal registration impact; consider implications for Florida cannabis operators.",
-    "verification": "unverified"
+    "recommended_action": "Evaluate implications of federal registration for Florida operations; consider similar registration for Meds Cafe if applicable.",
+    "verification": "unverified",
+    "publisher": "GlobeNewswire",
+    "source_type": "news"
   },
   "tennessee_updates": [
     {
       "headline": "State ban on intoxicating hemp products - Spectrum News",
       "summary": "Tennessee has implemented a state ban on intoxicating hemp products.",
-      "impact": "Hemp businesses in Tennessee must comply with the ban; potential market restrictions.",
+      "impact": "Restrictions on intoxicating hemp products may limit product offerings and affect supply chains in Tennessee.",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNWkyYklBaHZyalB1M1REZkoyZ3dCaEdPSWVKUVNIX3IzWnZHQS0tV2Z1OWQ5V0VXVzNKZmMwRjVDRi1LQU9jZVQ4WFZDQ2hSY3dWQUR3bW00OUpYbjlRZDNTNlg4WGh4LUJTLWx2d0Ztbm54cjcxeWVoM1dzMDg1ekN4bXd2UGRnbTBjaGVleGVmWmY3NFp4bldEYjRhUQ?oc=5",
-      "date": "Fri, 06 Nov 2026 17:39:00 GMT",
+      "date": "2026-11-06T17:39:00+00:00",
       "significant": false,
-      "recommended_action": "Ensure compliance with state ban; adjust product offerings and marketing accordingly.",
-      "verification": "unverified"
+      "recommended_action": "Ensure compliance with state ban; adjust product offerings and supply chain accordingly.",
+      "verification": "unverified",
+      "publisher": "Spectrum News",
+      "source_type": "news"
     },
     {
       "headline": "Fraudulent Email Claimed Tennessee Lifted Hemp THCA Restrictions - Ganjapreneur",
       "summary": "A fraudulent email falsely claimed that Tennessee lifted hemp THCA restrictions.",
-      "impact": "Potential misinformation risk for Tennessee hemp businesses and consumers.",
+      "impact": "Potential misinformation risk; need for clear communication to stakeholders about current regulations.",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWHA0d3dDY2s2dWctak9EczBSQkEwSTduN1JjbVNxWTBkcnhLNzJuQjNNc0VkWmI5YzhLRDFSRURYbUNlZFlfNWE5WTlqcUs3Nm9xS1R4OTRRbEU2cU9VcjNwMWNRbnNfU0EwQUtZOVg3bS1aWm1xTloxNk5QMk5nenc2eU1wLUh2Q3BZYU96bXQ5QU1q?oc=5",
-      "date": "Thu, 05 Nov 2026 07:06:08 GMT",
+      "date": "2026-11-05T07:06:08+00:00",
       "significant": false,
-      "recommended_action": "Warn stakeholders about misinformation; verify regulatory updates through official channels.",
-      "verification": "unverified"
+      "recommended_action": "Communicate accurate regulatory information internally and externally; monitor for further misinformation.",
+      "verification": "unverified",
+      "publisher": "Ganjapreneur",
+      "source_type": "news"
+    },
+    {
+      "headline": "Tennessee Alcoholic Beverage Commission investigating potential hack - WREG.com",
+      "summary": "The Tennessee Alcoholic Beverage Commission is investigating a potential cybersecurity breach.",
+      "impact": "Possible disruption to regulatory operations; increased risk of data security issues affecting licensees.",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFFEak4wU1lhRTc2R0Q1NHprNENwSHl6bGMzUDdjNEpCMlpmWGwtblRiQWtiX0JETmNQWlh0Qkc4SXRHUXNBazJuREEzcGh1cXN0TllpLXd5cUpXdHRkOXRtVXVKMXFQcWo3aG9yMXg2dU4taW5yem5mWlFRM3pRLXVkeFNXdWF6cVBsZk5hN0FHeE5MVmfSAZsBQVVfeXFMTmtLUXBLYUJKeVNHRDhJM1FER0IxZFNnYmxpY0dSbmdQejBOS0hxYVFFMXhyZEh2clhHR00yZGY3bFRxVC01Q1JJVkx5MENLZFVibzM5bmd1c25kYXcxRzNYdXFpc0N2SUpfUjJaUnl1LWQ3UnZlTmNpVVBCOVI3MUZlMHA4YWVJbzVUR3EzY2lvX3RvbDlFamNSbFU?oc=5",
+      "date": "2026-10-31T18:58:32+00:00",
+      "significant": false,
+      "recommended_action": "Monitor regulatory communications for updates; ensure cybersecurity measures are robust; prepare for potential delays in regulatory processing.",
+      "verification": "unverified",
+      "publisher": "WREG.com",
+      "source_type": "news"
     }
   ],
   "tennessee": {
     "headline": "State ban on intoxicating hemp products - Spectrum News",
     "summary": "Tennessee has implemented a state ban on intoxicating hemp products.",
-    "impact": "Hemp businesses in Tennessee must comply with the ban; potential market restrictions.",
+    "impact": "Restrictions on intoxicating hemp products may limit product offerings and affect supply chains in Tennessee.",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNWkyYklBaHZyalB1M1REZkoyZ3dCaEdPSWVKUVNIX3IzWnZHQS0tV2Z1OWQ5V0VXVzNKZmMwRjVDRi1LQU9jZVQ4WFZDQ2hSY3dWQUR3bW00OUpYbjlRZDNTNlg4WGh4LUJTLWx2d0Ztbm54cjcxeWVoM1dzMDg1ekN4bXd2UGRnbTBjaGVleGVmWmY3NFp4bldEYjRhUQ?oc=5",
-    "date": "Fri, 06 Nov 2026 17:39:00 GMT",
+    "date": "2026-11-06T17:39:00+00:00",
     "significant": false,
-    "recommended_action": "Ensure compliance with state ban; adjust product offerings and marketing accordingly.",
-    "verification": "unverified"
+    "recommended_action": "Ensure compliance with state ban; adjust product offerings and supply chain accordingly.",
+    "verification": "unverified",
+    "publisher": "Spectrum News",
+    "source_type": "news"
   },
   "alerts": [],
   "alert_count": 0,
-  "errors": [
-    "michigan feed https://www.michigan.gov/cra/rss: HTTPError: HTTP Error 404: Not Found",
-    "federal feed https://www.federalregister.gov/documents/search.rss?conditions%5Bterm%5D=marijuana: ParseError: not well-formed (invalid token): line 16, column 67"
-  ],
-  "source_success_count": 12,
-  "article_count": 78
+  "errors": [],
+  "source_success_count": 25,
+  "article_count": 122,
+  "category_source_success": {
+    "michigan": 10,
+    "federal": 8,
+    "virginia": 3,
+    "florida": 2,
+    "tennessee": 2
+  }
 }

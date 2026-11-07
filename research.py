@@ -1,239 +1,166 @@
-
-import os
 import json
+import os
 import re
-import urllib.request
 import urllib.parse
+import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-
 from openai import OpenAI
 
-OUTPUT = Path("intel.json")
-HISTORY = Path("intel_history.json")
-MODEL = "gpt-4.1-mini"
-
+OUTPUT = Path('intel.json')
+HISTORY = Path('intel_history.json')
+MODEL = os.getenv('OPENAI_MODEL', 'gpt-4.1-mini')
+MARKETS = ['Alpena', 'Gaylord', 'Rogers City', 'Cheboygan', 'Manistee', 'Lowell', 'Cedar Springs']
 SEARCHES = {
-    "michigan": [
-        "Michigan cannabis SB 597 licensing tax",
-        "Michigan CRA marijuana recall enforcement",
-        "Michigan cannabis wholesale prices dispensary closures",
-        "Michigan cannabis dispensary acquisition sale",
+    'michigan': [
+        'Michigan cannabis SB 597 license cap legislation',
+        'Michigan marijuana 24% wholesale tax court legislature',
+        'Michigan CRA cannabis recall enforcement license suspension',
+        'Michigan cannabis wholesale price supply market',
+        'Michigan dispensary closure acquisition sale Alpena Gaylord Cheboygan',
+        'Michigan dispensary opening closure Lowell Cedar Springs Manistee Rogers City',
     ],
-    "federal": [
-        "DEA marijuana rescheduling Schedule III 280E",
-        "federal hemp THC legislation cannabis",
-        "federal cannabis tax regulation enforcement",
+    'federal': [
+        'DEA marijuana rescheduling Schedule III 280E official',
+        'Congress federal hemp THC law regulation',
+        'DOJ DEA cannabis enforcement tax policy',
+    ],
+    'virginia': [
+        'Virginia adult use cannabis retail licensing Cannabis Control Authority',
+        'Virginia marijuana retail legalization legislation governor',
+    ],
+    'florida': [
+        'Florida hemp THC law licensing enforcement',
+        'Florida cannabis marijuana regulatory changes',
+    ],
+    'tennessee': [
+        'Tennessee hemp THCA flower law licensing regulation',
+        'Tennessee cannabis hemp enforcement legislation',
     ],
 }
 
+
+def load_json(path, default):
+    try:
+        return json.loads(path.read_text()) if path.exists() else default
+    except (OSError, ValueError):
+        return default
+
+
 def fetch_rss(query):
-    params = urllib.parse.urlencode({
-        "q": query + " when:3d",
-        "hl": "en-US",
-        "gl": "US",
-        "ceid": "US:en",
-    })
-
-    url = (
-        "https://news.google.com/rss/search?"
-        + params
-    )
-
-    request = urllib.request.Request(
-        url,
-        headers={"User-Agent": "Mozilla/5.0"}
-    )
-
-    with urllib.request.urlopen(
-        request, timeout=20
-    ) as response:
-        xml = response.read()
-
-    root = ET.fromstring(xml)
+    params = urllib.parse.urlencode({'q': query + ' when:7d', 'hl': 'en-US', 'gl': 'US', 'ceid': 'US:en'})
+    req = urllib.request.Request('https://news.google.com/rss/search?' + params, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(req, timeout=20) as response:
+        root = ET.fromstring(response.read())
     results = []
-
-    for item in root.findall(".//item")[:12]:
-        title = item.findtext("title", "")
-        link = item.findtext("link", "")
-        published = item.findtext("pubDate", "")
-
+    for item in root.findall('.//item')[:12]:
+        title = item.findtext('title', '').strip()
+        link = item.findtext('link', '').strip()
+        published = item.findtext('pubDate', '')
+        source = item.find('source')
         try:
-            date = parsedate_to_datetime(
-                published
-            ).isoformat()
-        except Exception:
-            date = ""
-
-        results.append({
-            "title": title,
-            "url": link,
-            "date": date,
-        })
-
+            date = parsedate_to_datetime(published).astimezone(timezone.utc).isoformat()
+        except (TypeError, ValueError, OverflowError):
+            date = ''
+        if title and link:
+            results.append({'title': title, 'url': link, 'date': date, 'publisher': source.text if source is not None else ''})
     return results
 
-def load_json(path, fallback):
-    if not path.exists():
-        return fallback
-    try:
-        return json.loads(path.read_text())
-    except Exception:
-        return fallback
+
+def normalize(title):
+    return re.sub(r'\W+', ' ', title.casefold()).strip()
+
+
+def empty_update():
+    return {'headline': 'No verified change', 'summary': '', 'impact': '', 'url': '', 'significant': False,
+            'date': '', 'recommended_action': '', 'verification': 'unverified'}
+
 
 def main():
     now = datetime.now(timezone.utc)
-    history = load_json(HISTORY, {
-        "seen": [],
-        "latest": {}
-    })
-
-    articles = {}
-    errors = []
-
+    history = load_json(HISTORY, {'seen': [], 'alerts': [], 'latest': {}})
+    if not isinstance(history, dict):
+        history = {'seen': [], 'alerts': [], 'latest': {}}
+    prior_alerts = history.get('alerts', []) if isinstance(history.get('alerts'), list) else []
+    prior_keys = {str(a.get('key', '')) for a in prior_alerts if isinstance(a, dict)}
+    articles, errors = {}, []
     for category, queries in SEARCHES.items():
-        collected = []
-
+        unique = {}
         for query in queries:
             try:
-                collected.extend(fetch_rss(query))
+                for item in fetch_rss(query):
+                    unique.setdefault(normalize(item['title']), item)
             except Exception as exc:
-                errors.append(
-                    f"{category}: {str(exc)}"
-                )
+                errors.append(f'{category}: {type(exc).__name__}: {exc}')
+        articles[category] = list(unique.values())[:45]
 
-        unique = {}
-        for item in collected:
-            key = item["title"].lower().strip()
-            if key and key not in unique:
-                unique[key] = item
-
-        articles[category] = list(
-            unique.values()
-        )[:35]
-
-    client = OpenAI(
-        api_key=os.environ["OPENAI_API_KEY"]
-    )
-
-    prompt = {
-        "today_utc": now.isoformat(),
-        "previously_seen_titles": history.get(
-            "seen", []
-        )[-250:],
-        "articles": articles,
-    }
-
-    instructions = """
-You are a cautious business intelligence analyst
-for Meds Cafe, a Michigan cannabis retailer.
-
-Prioritize:
-- Michigan SB 597, licensing and tax changes
-- Michigan CRA enforcement and recalls
-- Federal Schedule III, 280E and hemp policy
-- Competitor openings and closures in Alpena,
-  Gaylord, Rogers City, Cheboygan, Manistee,
-  Lowell and Cedar Springs
-- Wholesale prices, supply disruptions
-- Actionable cannabis acquisition opportunities
-
-Analyze only the supplied articles.
-Do not invent facts or source URLs.
-Do not claim a legal status changed based only
-on a speculative headline.
-
-A headline alone is NOT sufficient verification.
-Treat findings as provisional unless the supplied
-material contains adequate primary-source evidence.
-
-Return valid JSON with this structure:
-{
-  "michigan": {
-    "headline": "Short update or No verified change",
-    "summary": "Maximum 30 words",
-    "impact": "Maximum 20 words",
-    "url": "Source URL or empty string",
-    "significant": false
-  },
-  "federal": {
-    "headline": "Short update or No verified change",
-    "summary": "Maximum 30 words",
-    "impact": "Maximum 20 words",
-    "url": "Source URL or empty string",
-    "significant": false
-  }
-}
-
-Choose only the most important development
-for each category.
-
-If nothing reliable is found, say
-"No verified change".
-
-Do not label something significant without
-credible evidence of a material business impact.
-"""
-
+    instructions = '''You are a cautious cannabis regulatory/business analyst for Meds Cafe.
+Return ONLY a valid JSON object with keys michigan, federal, virginia, florida, tennessee.
+Each value must be an ARRAY of up to 5 developments with fields:
+headline, summary (<=45 words), impact (<=35 words), url, date, significant (boolean),
+recommended_action (<=35 words), verification ('verified' or 'unverified').
+Use ONLY supplied RSS metadata. Headlines are leads, not proof: without direct primary-source
+text or corroborated evidence, verification MUST be 'unverified' and significant MUST be false.
+Never assert a bill passed, law changed, facility closed, license issued, or acquisition is available
+solely because a headline suggests it. Never invent source URLs or dates. If uncertain, omit.
+Prefer developments relevant to Michigan locations Alpena, Gaylord, Rogers City, Cheboygan,
+Manistee, Lowell, Cedar Springs, plus Virginia expansion, federal 280E/rescheduling, hemp,
+wholesale pricing and acquisitions. Do not repeat essentially identical stories.
+Empty array is correct when there are no useful leads. A recommendation must be actionable
+and conditional when not verified.''' 
+    payload = {'today_utc': now.isoformat(), 'articles': articles,
+               'previous_alerts': prior_alerts[-100:]}
+    client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
     response = client.chat.completions.create(
-        model=MODEL,
-        response_format={
-            "type": "json_object"
-        },
-        messages=[
-            {
-                "role": "system",
-                "content": instructions
-            },
-            {
-                "role": "user",
-                "content": json.dumps(prompt)
+        model=MODEL, response_format={'type': 'json_object'}, temperature=0.1,
+        messages=[{'role': 'system', 'content': instructions},
+                  {'role': 'user', 'content': json.dumps(payload)}])
+    parsed = json.loads(response.choices[0].message.content)
+    if not isinstance(parsed, dict):
+        raise ValueError('AI output must be an object')
+    output = {'updated_at': now.isoformat(), 'status': 'partial' if errors else 'ok'}
+    new_alerts = []
+    for category in SEARCHES:
+        raw = parsed.get(category, [])
+        if isinstance(raw, dict):
+            raw = [raw]
+        if not isinstance(raw, list):
+            raw = []
+        approved_urls = {a['url'] for a in articles[category]}
+        cleaned = []
+        for item in raw[:5]:
+            if not isinstance(item, dict) or item.get('url') not in approved_urls:
+                continue
+            verified = item.get('verification') == 'verified'
+            # RSS metadata alone never establishes independent primary-source verification.
+            verified = False
+            entry = {
+                'headline': str(item.get('headline', ''))[:220],
+                'summary': str(item.get('summary', ''))[:500],
+                'impact': str(item.get('impact', ''))[:400],
+                'url': item['url'],
+                'date': str(item.get('date', ''))[:40],
+                'significant': False,
+                'recommended_action': str(item.get('recommended_action', ''))[:400],
+                'verification': 'unverified',
             }
-        ],
-        temperature=0.1,
-    )
+            cleaned.append(entry)
+            # No automatic alerts until a primary-source verification stage is added.
+        output[category + '_updates'] = cleaned
+        output[category] = cleaned[0] if cleaned else empty_update()
+    output['alerts'] = new_alerts
+    output['alert_count'] = 0
+    output['errors'] = errors
+    OUTPUT.write_text(json.dumps(output, indent=2, ensure_ascii=False) + '\n')
+    titles = [normalize(a['title']) for group in articles.values() for a in group]
+    history['seen'] = list(dict.fromkeys(history.get('seen', []) + titles))[-1500:]
+    history['alerts'] = prior_alerts[-500:]
+    history['latest'] = {k: output[k] for k in SEARCHES}
+    HISTORY.write_text(json.dumps(history, indent=2, ensure_ascii=False) + '\n')
+    print('Meds Cafe intelligence updated:', now.isoformat(), 'alerts:', len(new_alerts), 'errors:', len(errors))
 
-    result = json.loads(
-        response.choices[0].message.content
-    )
 
-    output = {
-        "updated_at": now.isoformat(),
-        "status": (
-            "partial" if errors else "ok"
-        ),
-        "michigan": result.get(
-            "michigan", {}
-        ),
-        "federal": result.get(
-            "federal", {}
-        ),
-    }
-
-    OUTPUT.write_text(
-        json.dumps(output, indent=2)
-    )
-
-    all_titles = [
-        item["title"]
-        for group in articles.values()
-        for item in group
-    ]
-
-    history["seen"] = list(dict.fromkeys(
-        history.get("seen", []) + all_titles
-    ))[-500:]
-
-    HISTORY.write_text(
-        json.dumps(history, indent=2)
-    )
-
-    print(
-        "Meds Cafe intelligence updated:",
-        now.isoformat()
-    )
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

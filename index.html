@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meds Cafe | Intelligence Center</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg:#0b1119;
+  --panel:#16212d;
+  --line:#293442;
+  --text:#f5f7fa;
+  --muted:#a4b2c3;
+  --green:#4ade9c;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,
+    "Segoe UI",sans-serif;
+}
+.container {
+  max-width:1100px;
+  margin:auto;
+  padding:24px 18px 60px;
+}
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  padding-bottom:22px;
+  border-bottom:1px solid var(--line);
+}
+.brand {
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.logo {
+  background:#173d32;
+  color:var(--green);
+  padding:13px;
+  border-radius:12px;
+  font-weight:900;
+  font-size:22px;
+}
+.brand h1 {
+  margin:0;
+  font-size:21px;
+  letter-spacing:1px;
+}
+.brand small {
+  color:var(--muted);
+  letter-spacing:2px;
+  font-size:10px;
+}
+.live {
+  color:var(--green);
+  background:#173d32;
+  padding:8px 12px;
+  border-radius:30px;
+  font-size:12px;
+  font-weight:700;
+}
+.intro { margin:28px 0; }
+.intro h2 {
+  font-size:28px;
+  margin:0 0 8px;
+}
+.intro p {
+  color:var(--muted);
+  line-height:1.5;
+}
+.stats {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+  margin:24px 0;
+}
+.stat,.card {
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:14px;
+}
+.stat { padding:18px; }
+.stat small {
+  color:var(--muted);
+  font-size:11px;
+  letter-spacing:1px;
+}
+.stat strong {
+  display:block;
+  font-size:32px;
+  margin-top:8px;
+}
+.section {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  margin:30px 0 16px;
+}
+.section h2 {
+  font-size:20px;
+  margin:0;
+}
+button {
+  background:#173d32;
+  color:var(--green);
+  border:1px solid #285947;
+  padding:10px 14px;
+  border-radius:9px;
+  cursor:pointer;
+  font-weight:700;
+}
+.cards {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:15px;
+}
+.card { padding:22px; }
+.tag {
+  display:inline-block;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:1px;
+  padding:7px 10px;
+  border-radius:6px;
+  background:#263648;
+  color:#b8d4ff;
+}
+.tag.michigan {
+  background:#45361d;
+  color:#ffd47e;
+}
+.tag.virginia {
+  background:#213b35;
+  color:#80e6bd;
+}
+.card h3 {
+  font-size:19px;
+  line-height:1.4;
+  margin:18px 0 12px;
+}
+.card p {
+  color:var(--muted);
+  line-height:1.6;
+  font-size:14px;
+}
+.impact {
+  border-left:3px solid var(--green);
+  padding:10px 12px;
+  background:#10251f;
+  border-radius:4px;
+  margin:18px 0;
+  font-size:13px;
+  line-height:1.5;
+}
+.impact strong {
+  display:block;
+  color:var(--green);
+  margin-bottom:5px;
+}
+.card a {
+  display:inline-block;
+  margin-top:6px;
+  color:var(--green);
+  text-decoration:none;
+  font-size:14px;
+  font-weight:700;
+}
+.empty {
+  color:var(--muted);
+  padding:20px;
+  border:1px dashed var(--line);
+  border-radius:12px;
+}
+footer {
+  color:var(--muted);
+  font-size:12px;
+  margin-top:35px;
+  border-top:1px solid var(--line);
+  padding-top:20px;
+  line-height:1.7;
+}
+@media(max-width:550px) {
+  .container { padding:18px 14px; }
+  .intro h2 { font-size:24px; }
+  .stat { padding:13px; }
+  .stat strong { font-size:27px; }
+  .stat small { font-size:9px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="brand">
+      <div class="logo">M</div>
+      <div>
+        <h1>MEDS CAFE</h1>
+        <small>INTELLIGENCE CENTER</small>
+      </div>
+    </div>
+    <span class="live" id="status">● LIVE</span>
+  </header>
+
+  <section class="intro">
+    <h2>Cannabis Intelligence</h2>
+    <p>AI-powered regulatory research and business
+    intelligence for Meds Cafe.</p>
+  </section>
+
+  <div class="stats">
+    <div class="stat">
+      <small>MICHIGAN</small>
+      <strong id="miCount">—</strong>
+    </div>
+    <div class="stat">
+      <small>FEDERAL</small>
+      <strong id="fedCount">—</strong>
+    </div>
+    <div class="stat">
+      <small>VIRGINIA</small>
+      <strong id="vaCount">—</strong>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Latest Intelligence</h2>
+    <button onclick="loadNews()">↻ Refresh</button>
+  </div>
+
+  <div class="cards" id="news">
+    <div class="empty">Loading intelligence...</div>
+  </div>
+
+  <footer>
+    <div id="updated">Checking latest research...</div>
+    <p>Automated research powered by OpenAI.
+    Verify important regulatory developments
+    with official government sources before
+    making business decisions.</p>
+  </footer>
+</div>
+
+<script>
+const categories = [
+  ["michigan","Michigan","miCount"],
+  ["federal","Federal","fedCount"],
+  ["virginia","Virginia","vaCount"]
+];
+
+function makeCard(key,label,item) {
+  const card=document.createElement("article");
+  card.className="card";
+
+  const tag=document.createElement("span");
+  tag.className="tag "+key;
+  tag.textContent=label.toUpperCase();
+  card.appendChild(tag);
+
+  const title=document.createElement("h3");
+  title.textContent=item.headline || "No headline";
+  card.appendChild(title);
+
+  const summary=document.createElement("p");
+  summary.textContent=item.summary || "";
+  card.appendChild(summary);
+
+  if(item.impact) {
+    const impact=document.createElement("div");
+    impact.className="impact";
+    const heading=document.createElement("strong");
+    heading.textContent="BUSINESS IMPACT";
+    impact.appendChild(heading);
+    const detail=document.createElement("span");
+    detail.textContent=item.impact;
+    impact.appendChild(detail);
+    card.appendChild(impact);
+  }
+
+  if(item.url) {
+    try {
+      const url=new URL(item.url);
+      if(["https:","http:"].includes(url.protocol)) {
+        const link=document.createElement("a");
+        link.href=url.href;
+        link.target="_blank";
+        link.rel="noopener noreferrer";
+        link.textContent="Read full report ↗";
+        card.appendChild(link);
+      }
+    } catch(e) {}
+  }
+
+  return card;
+}
+
+async function loadNews() {
+  const area=document.getElementById("news");
+  const status=document.getElementById("status");
+  status.textContent="● SYNCING";
+
+  try {
+    const response=await fetch(
+      "./intel.json?t="+Date.now(),
+      {cache:"no-store"}
+    );
+    if(!response.ok) throw Error("HTTP "+response.status);
+
+    const data=await response.json();
+    if(data.status!=="ok") throw Error("Research not ready");
+
+    area.replaceChildren();
+    let total=0;
+
+    for(const [key,label,countId] of categories) {
+      const value=data[key];
+      const items=Array.isArray(value)
+        ? value.filter(x=>x && x.headline)
+        : value && value.headline ? [value] : [];
+
+      document.getElementById(countId).textContent=
+        items.length ? String(items.length).padStart(2,"0") : "—";
+
+      for(const item of items) {
+        area.appendChild(makeCard(key,label,item));
+        total++;
+      }
+    }
+
+    if(!total) {
+      const empty=document.createElement("div");
+      empty.className="empty";
+      empty.textContent="No intelligence reports available yet.";
+      area.appendChild(empty);
+    }
+
+    const date=data.updated_at
+      ? new Date(data.updated_at).toLocaleString()
+      : "Unknown";
+
+    document.getElementById("updated").textContent=
+      "Last research update: "+date;
+    status.textContent="● LIVE";
+  } catch(error) {
+    status.textContent="● OFFLINE";
+    area.replaceChildren();
+    const msg=document.createElement("div");
+    msg.className="empty";
+    msg.textContent="Unable to load intelligence: "+error.message;
+    area.appendChild(msg);
+  }
+}
+
+loadNews();
+setInterval(loadNews,300000);
+</script>
+</body>
+</html>

@@ -8,11 +8,11 @@
     "Minnesota Marijuana Sales Reach $220.8 Million Through September, With Record $29.4 Million Sold During Month - The Marijuana Herald",
     "Trulieve Reports Third Quarter 2026 Results - TradingView",
     "Trulieve Q3FY26 Results: Adj EPS $0.09 beats $0.07 est, sales down 20% YoY - scanx.trade",
-    "Cannabis Client Alert \u2013 Week of November 2, 2026 - Dentons",
-    "DEA\u2019s \"Timely Applicants\" Policy and the Problems Ahead - Harris Sliwoski LLP",
+    "Cannabis Client Alert – Week of November 2, 2026 - Dentons",
+    "DEA’s \"Timely Applicants\" Policy and the Problems Ahead - Harris Sliwoski LLP",
     "State ban on intoxicating hemp products - Spectrum News",
     "Some Wisconsin companies will sell THC products despite federal hemp ban - Milwaukee Journal Sentinel",
-    "THC helps spur a Texas blue wave, but retailers\u2019 fight continues - The Texas Tribune",
+    "THC helps spur a Texas blue wave, but retailers’ fight continues - The Texas Tribune",
     "Major Changes to Hemp Regulation Are Taking Effect: Is Your Business Ready? - Dentons",
     "New Scoreboard, Same Rulebook: What the Midterms Mean for Marijuana and Hemp - The National Law Review",
     "Could Democrats Federally Legalize Marijuana With Their New Senate And House Majorities? - Marijuana Moment",
@@ -25,12 +25,64 @@
     "DEA rejects D.C. medical marijuana registration application - MJBizDaily",
     "Fact Check Team: Massachusetts voters reject effort to roll back recreational marijuana - WLUK",
     "Cannabis Reform After the Midterms - Harris Sliwoski LLP",
-    "Houston\u2019s Proposition A passed. Will police still arrest people for marijuana possession? - Click2Houston",
+    "Houston’s Proposition A passed. Will police still arrest people for marijuana possession? - Click2Houston",
     "Federal cannabis reform gets Democratic boost (Newsletter: November 5, 2026) - Marijuana Moment",
-    "\u2018Blexas\u2019 is here. What could change? - www.kera.org",
+    "‘Blexas’ is here. What could change? - www.kera.org",
     "Houston Approves Marijuana Enforcement Charter Change - Cannabis Aficionado",
-    "THC Drinks in Nebraska: Are They Legal, Where to Buy Them, and What\u2019s Changing (2026) - Herb.co",
-    "THC Drinks in Kansas: Are They Legal, Where to Buy Them and What\u2019s Changing (2026) - Herb.co"
+    "THC Drinks in Nebraska: Are They Legal, Where to Buy Them, and What’s Changing (2026) - Herb.co",
+    "THC Drinks in Kansas: Are They Legal, Where to Buy Them and What’s Changing (2026) - Herb.co"
   ],
-  "latest": {}
+  "latest": {
+    "michigan": {
+      "headline": "No verified change",
+      "summary": "",
+      "impact": "",
+      "url": "",
+      "significant": false,
+      "date": "",
+      "recommended_action": "",
+      "verification": "unverified"
+    },
+    "federal": {
+      "headline": "No verified change",
+      "summary": "",
+      "impact": "",
+      "url": "",
+      "significant": false,
+      "date": "",
+      "recommended_action": "",
+      "verification": "unverified"
+    },
+    "virginia": {
+      "headline": "No verified change",
+      "summary": "",
+      "impact": "",
+      "url": "",
+      "significant": false,
+      "date": "",
+      "recommended_action": "",
+      "verification": "unverified"
+    },
+    "florida": {
+      "headline": "No verified change",
+      "summary": "",
+      "impact": "",
+      "url": "",
+      "significant": false,
+      "date": "",
+      "recommended_action": "",
+      "verification": "unverified"
+    },
+    "tennessee": {
+      "headline": "No verified change",
+      "summary": "",
+      "impact": "",
+      "url": "",
+      "significant": false,
+      "date": "",
+      "recommended_action": "",
+      "verification": "unverified"
+    }
+  },
+  "alerts": []
 }

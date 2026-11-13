@@ -1,251 +1,432 @@
 {
-  "updated_at": "2026-11-13T01:13:57.626899+00:00",
+  "updated_at": "2026-11-13T01:44:18.972450+00:00",
   "status": "ok",
   "michigan_updates": [],
   "michigan": {
-    "headline": "No verified change",
+    "headline": "No current intelligence leads",
     "summary": "",
     "impact": "",
     "url": "",
-    "significant": false,
     "date": "",
+    "significant": false,
     "recommended_action": "",
     "verification": "unverified"
   },
+  "michigan_watching": [
+    {
+      "headline": "SB 597 licensing limits",
+      "summary": "Monitor legislative movement and effects on license availability.",
+      "impact": "Monitor legislative movement and effects on license availability.",
+      "url": "",
+      "display_type": "watching"
+    },
+    {
+      "headline": "24% wholesale cannabis tax",
+      "summary": "Watch implementation, legal challenges, and wholesale margin effects.",
+      "impact": "Watch implementation, legal challenges, and wholesale margin effects.",
+      "url": "",
+      "display_type": "watching"
+    },
+    {
+      "headline": "CRA enforcement and local competitors",
+      "summary": "Watch recalls, store closures, openings, and acquisition opportunities.",
+      "impact": "Watch recalls, store closures, openings, and acquisition opportunities.",
+      "url": "",
+      "display_type": "watching"
+    }
+  ],
   "federal_updates": [
     {
+      "headline": "Partial federal hemp ban in effect, court offers lifeline to Illinois THC beverage makers - MJBizDaily",
+      "summary": "A partial federal ban on hemp products containing certain cannabinoids has taken effect, but a court ruling has provided some relief to Illinois THC beverage makers facing regulatory challenges.",
+      "impact": "Significant regulatory risk for hemp-derived THC products nationwide; potential supply chain disruptions and compliance challenges.",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWHg5UnowM1VEckRQR09yNGxCRFlkS2xzVjlDeDQ5czdTUnp4SDRzTU5vOEgwQjVxM2NuNmtYVk1NYTRPSnJoblIxZTNOQlJESTZORTVySm16V0haQTlMcGRmcVNGNU9Dcy1Bd3pJWnNWUnlRWE5vTDFYMFQwQlhZX1hTazYtbkIwZXpDZVk0LTRlaGdNUGVtaXc1S25pMS0wNjNGUUhyMHdfZmRVdC1BUGZQTGhackpzZ3ZJ?oc=5",
+      "date": "2026-11-13T00:37:45+00:00",
+      "significant": false,
+      "recommended_action": "Review product lines for compliance with new federal hemp regulations; consider legal counsel to navigate evolving federal restrictions; monitor court developments closely.",
+      "verification": "unverified",
+      "publisher": "MJBizDaily",
+      "source_type": "news",
+      "display_type": "new"
+    },
+    {
       "headline": "Hemp Products Containing Unnatural Cannabinoids, Like THC-O, Now Federally Prohibited - Cannabis Business Times",
-      "summary": "Federal prohibition now includes hemp products containing unnatural cannabinoids such as THC-O.",
-      "impact": "This federal ban restricts the sale and distribution of hemp products with synthetic cannabinoids, affecting producers and retailers nationwide.",
+      "summary": "The federal government has prohibited hemp products containing unnatural cannabinoids such as THC-O, impacting manufacturers and retailers of these products.",
+      "impact": "Potential removal of certain hemp-derived products from the market; increased regulatory scrutiny.",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbEY5bU8xM0N4LVVFV1ItQ0hGTDhKeEtuby1CRGlibHRWdExXYTl2LXpHWWlXSjZkZF9PR0tlblFTMFFybjlqMXF0QUppbUJGdkJXMWJLZDdRYWpHUTdBakV4Y2liRDVDZ2ZWTHd2X1VrYnBiVWxPM1p4OUhELVVUcEdiZ25UeU9XckEyb2FsT3VzbVBhWXo2VUJjRWJnenFZX3dlbTVZMnZSN1ZzVGk5SEVlbnpVekZGcVYxcHcxcHVjdl9YNzlmSmozMzcxa3ZWUTBJTk1R?oc=5",
       "date": "2026-11-12T18:15:40+00:00",
       "significant": false,
-      "recommended_action": "Review product lines for compliance with new federal cannabinoid restrictions and adjust inventory accordingly.",
+      "recommended_action": "Audit product offerings to ensure no prohibited cannabinoids are sold; adjust inventory and marketing strategies accordingly.",
       "verification": "unverified",
       "publisher": "Cannabis Business Times",
-      "source_type": "news"
+      "source_type": "news",
+      "display_type": "new"
     },
     {
-      "headline": "Texas Officials Say Cannabis Reform Is A Priority For 2027 Session And Tout Hemp As 'Saving Grace' For Farmers - Marijuana Moment",
-      "summary": "Texas officials prioritize cannabis reform in the 2027 legislative session, emphasizing hemp's importance for farmers.",
-      "impact": "Potential for expanded hemp and cannabis market opportunities in Texas pending legislative action.",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejF0X3pEN25Fek5WTi03bHpqUDlXbG0tMnRLMUNlTExIVTRINkhkeE56Unh2ZEduT1AyTUlMWVBsWmxXQ2c4N1M1TTUyY2Z6TjlZZDB5RXZTRFpyclAxeUFWYkJOcEFha0k1cG9MdUhINTdTOC1CRm8xTjNER052dFVZZEJ4MGFTNTQweEhmZS12SVc2bTFDLWk3WF92bWNIcHZDcFVKRzF2QmthRkFnT0EwSHJZSG5halZTbU8xeFpWcWNtUmx1YlJmVTZtUjR6bGxKcHctV0k?oc=5",
-      "date": "2026-11-12T18:09:29+00:00",
+      "headline": "THC Hemp Products Face A Federal Ban Next Month. Can Congress Act Before Then? - Patch",
+      "summary": "Federal ban on THC hemp products is set to take effect next month, with ongoing discussions about whether Congress can intervene to provide regulatory alternatives.",
+      "impact": "Urgent compliance risk for businesses dealing in THC hemp products; potential market disruption.",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU3gyRGZkRjRXN3F1VExyNGlLVnhPRlVLeGdTNjZWTnRtYm85WnV3RGJ2WmNKWE1aSExzanRVQ0ZjcWE2Ry0xakVhZUxSSzhvZk9MQ2s3aHhQemRYVXBySnhZZW56RzZTaXpWd2psWC1NYTR2bHFEal9oSEhFX2owT2VITV9Ec3E5czhZMDZjcXVzNGJoV3VzVmx2ZmlmYWZRa0Z4d212SkE?oc=5",
+      "date": "2026-11-12T16:44:47+00:00",
       "significant": false,
-      "recommended_action": "Monitor Texas legislative developments closely and prepare for potential market entry or expansion opportunities.",
+      "recommended_action": "Prepare for federal regulatory changes by reviewing product compliance; engage with industry groups advocating for legislative solutions.",
       "verification": "unverified",
-      "publisher": "Marijuana Moment",
-      "source_type": "news"
+      "publisher": "Patch",
+      "source_type": "news",
+      "display_type": "new"
     },
     {
       "headline": "First Phase Of Renewed Federal Hemp Product Ban Takes Effect As Industry Pushes Congress For Regulatory Alternative - Marijuana Moment",
-      "summary": "The initial phase of a renewed federal ban on certain hemp products has taken effect, prompting industry calls for alternative regulatory frameworks.",
-      "impact": "Hemp product manufacturers and retailers face increased regulatory scrutiny and potential market disruptions.",
+      "summary": "The initial phase of a renewed federal hemp product ban has taken effect, prompting industry stakeholders to lobby Congress for alternative regulatory frameworks.",
+      "impact": "Heightened regulatory uncertainty; potential impact on product availability and business operations.",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNU2o0aEpiR2l4WGNhSGdwY1ZGei1ZbFBiVF9ndTVpNkdwZEVFNTI0d0FxZUxBemtrOEd5NWdNdnZUZ3pyU1ljLVdlTl9jelI4REQtLUg3QnRmU0szZEM5TWxaSjVfZDNEelZ5OHVJSW5xLUVnVzBlcXhzREx6VDdKR05oUTcxNjhuUkhybFdxWUZHUEFldlloZDNKUGhTVmQtaHlqVDE3b0RqS1VTY0hwV193LXQwYldDZncyMU5ncFkwYkc4THE2ZGxKV1dUZXBBODZRSHRlOHdTYVQ3UkxVZXB3?oc=5",
       "date": "2026-11-12T12:59:25+00:00",
       "significant": false,
-      "recommended_action": "Engage with industry groups to monitor legislative developments and prepare for compliance with evolving federal hemp regulations.",
+      "recommended_action": "Monitor federal regulatory developments; participate in advocacy efforts; adjust product strategies to mitigate risk.",
       "verification": "unverified",
       "publisher": "Marijuana Moment",
-      "source_type": "news"
+      "source_type": "news",
+      "display_type": "new"
     },
     {
-      "headline": "Federal hemp THC ban, now 1 month out, puts $180 million Minnesota market at risk - CBS News",
-      "summary": "The impending federal hemp THC ban threatens a $180 million market in Minnesota, highlighting risks to hemp businesses.",
-      "impact": "Potential loss of market access and revenue for hemp producers and retailers in affected states.",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05SnJQenRSZ25hYmoyaWhLRzlGZXh5TzFEck9WWHNRMmhaYUh6X3E4WTRpX3RRMGh5TVlwenU2S1hWbVJwcVE4TGpDZkNyYTBaaVNkVHNJaFVlUzJ6Sm80RUp6VzlpOHNUcTEtd1VOYjQ3cUdtLVdCcA?oc=5",
-      "date": "2026-11-11T01:53:00+00:00",
+      "headline": "Green Collar CFO Publishes Plain-English Guides on IRC 280E and Unfiled Tax Returns for Business Owners - The Manila Times",
+      "summary": "Green Collar CFO has released guides to help cannabis business owners understand the complexities of IRC 280E tax code and unfiled tax returns.",
+      "impact": "Valuable resource for cannabis businesses to optimize tax compliance and financial management under challenging federal tax rules.",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOOUg1cURGZ3Mwam1XRWNqYTdSUnA1UHRNSVVudDhPSkdYeWtoMzlwR3lxUkRuYV9kTmduTzNvZW56WGRRcEhENkRDTlJNWjQ2UnpjS1JHS0hpbXFWcy12ZExiVG9HclZJNWk1cXJQZ2ZkR0FWeDF4MGxWWi0wV1lxT1YtaktYYUR1OWNhRnpfSHFrNFlfeW1SV3RWQW5vNGYzT051WDc2c25aZ00wTXhMNXRMU1lMYmlFSDJSbmZ5RHByTlVwcjRPOENNaGZGNlgzNlBESFZSanRFTFdaVHpEbkpRQUdtUG41S1BnN1pSZUU3LXhhcXoxUEdlcE4tRmRmRlVpMdIBigJBVV95cUxQYkt2b1NPRXdGTURKOXJqaEdEQW1XdXVyWEtwTm15b3FKc1MxVU1LSHExbmk1enpqZTRtZHg4RnVQYWRqc1NhcEg1VjlCYVctYktOeGlONkFKN3MyblVZTXZnQW81dGUwUnBTSml2RmRKUlNWT2FxOUZfXzVZcTZMLXpORDc2OS1yN1hrc21CZ1kyRnlzYkRFWVh2N1dFZDVNQW9RYTNrZF9LVEFNSEJQdWdOanR2SFdOb3RNalczc1VpY0pXbTFUQXRaYkdSUmdJdEg4NEZ1OEJZMlFMM0ktZng4RmdXQVY3c044MTdNMVlidk5VTm43dFZydldwa2JZMWRZb2ZfNmo1dw?oc=5",
+      "date": "2026-11-10T11:33:43+00:00",
       "significant": false,
-      "recommended_action": "Assess exposure to federal THC restrictions and explore diversification or compliance strategies to mitigate market risks.",
+      "recommended_action": "Utilize these guides to improve tax strategy and compliance; consider consulting with tax professionals familiar with cannabis industry challenges.",
       "verification": "unverified",
-      "publisher": "CBS News",
-      "source_type": "news"
-    },
-    {
-      "headline": "DEA increases psychedelics quotas while previewing cannabis move (Newsletter: November 10, 2026) - Marijuana Moment",
-      "summary": "DEA has increased quotas for psychedelics and signaled upcoming regulatory changes regarding cannabis.",
-      "impact": "Possible shifts in federal cannabis enforcement and regulatory landscape affecting operators.",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSjlPMWxTclFYMWRUQWtVMWRUdDhKTnJ4dGhJWHNWMlJSX1hvdXVTXzk2SWt0Ykt1XzhLQTRLV0dfNkwzSHhfS0Zsd0NwNHEtNEdJSEdSZzZ1dVhQOUFvalJNWXhkenp2UE9jaUpQZEtyQU5lc1FxY1R2U1hPdEpPcEJTLWkzWFdHbkx6cENSUGNLbmJES3U4Sy1nT0lQeTRFdTdLaUJISzVwbUFaZEhxc0V1OFdLclllQm43bzJ3Z1doSmc?oc=5",
-      "date": "2026-11-10T12:34:21+00:00",
-      "significant": false,
-      "recommended_action": "Stay informed on DEA regulatory updates to anticipate impacts on cannabis operations and compliance requirements.",
-      "verification": "unverified",
-      "publisher": "Marijuana Moment",
-      "source_type": "news"
+      "publisher": "The Manila Times",
+      "source_type": "news",
+      "display_type": "new"
     }
   ],
   "federal": {
-    "headline": "Hemp Products Containing Unnatural Cannabinoids, Like THC-O, Now Federally Prohibited - Cannabis Business Times",
-    "summary": "Federal prohibition now includes hemp products containing unnatural cannabinoids such as THC-O.",
-    "impact": "This federal ban restricts the sale and distribution of hemp products with synthetic cannabinoids, affecting producers and retailers nationwide.",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbEY5bU8xM0N4LVVFV1ItQ0hGTDhKeEtuby1CRGlibHRWdExXYTl2LXpHWWlXSjZkZF9PR0tlblFTMFFybjlqMXF0QUppbUJGdkJXMWJLZDdRYWpHUTdBakV4Y2liRDVDZ2ZWTHd2X1VrYnBiVWxPM1p4OUhELVVUcEdiZ25UeU9XckEyb2FsT3VzbVBhWXo2VUJjRWJnenFZX3dlbTVZMnZSN1ZzVGk5SEVlbnpVekZGcVYxcHcxcHVjdl9YNzlmSmozMzcxa3ZWUTBJTk1R?oc=5",
-    "date": "2026-11-12T18:15:40+00:00",
+    "headline": "Partial federal hemp ban in effect, court offers lifeline to Illinois THC beverage makers - MJBizDaily",
+    "summary": "A partial federal ban on hemp products containing certain cannabinoids has taken effect, but a court ruling has provided some relief to Illinois THC beverage makers facing regulatory challenges.",
+    "impact": "Significant regulatory risk for hemp-derived THC products nationwide; potential supply chain disruptions and compliance challenges.",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWHg5UnowM1VEckRQR09yNGxCRFlkS2xzVjlDeDQ5czdTUnp4SDRzTU5vOEgwQjVxM2NuNmtYVk1NYTRPSnJoblIxZTNOQlJESTZORTVySm16V0haQTlMcGRmcVNGNU9Dcy1Bd3pJWnNWUnlRWE5vTDFYMFQwQlhZX1hTazYtbkIwZXpDZVk0LTRlaGdNUGVtaXc1S25pMS0wNjNGUUhyMHdfZmRVdC1BUGZQTGhackpzZ3ZJ?oc=5",
+    "date": "2026-11-13T00:37:45+00:00",
     "significant": false,
-    "recommended_action": "Review product lines for compliance with new federal cannabinoid restrictions and adjust inventory accordingly.",
+    "recommended_action": "Review product lines for compliance with new federal hemp regulations; consider legal counsel to navigate evolving federal restrictions; monitor court developments closely.",
     "verification": "unverified",
-    "publisher": "Cannabis Business Times",
-    "source_type": "news"
+    "publisher": "MJBizDaily",
+    "source_type": "news",
+    "display_type": "new"
   },
-  "virginia_updates": [
+  "federal_watching": [
     {
-      "headline": "Newport News has a to-do list to prepare for retail cannabis sales - The Virginian-Pilot",
-      "summary": "Newport News is preparing for the launch of retail cannabis sales with a detailed action plan.",
-      "impact": "Retailers and stakeholders in Newport News should anticipate new market opportunities and regulatory compliance requirements.",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUQ5cUs2MFp5b1ptSkVGR2g4aVpYbUlyb2FLeGY0X2hkSUJSMkxzV2pKZkloQ0JqczhuY0ctdWNRdlF6T3JzM3NMdFNzRk5HV3ZfUi1MT19RcjRxOUktaU5Qd2NiVWdhNnR6WkgwekpwMnhLNDctLXZ4ZHhUY3JQb0xFSUJSNXlRa0V5V3BESlRXUUN1dkV0czJtUWZvMVZoc1FGOWg0UHYxUQ?oc=5",
-      "date": "2026-11-11T21:33:55+00:00",
-      "significant": false,
-      "recommended_action": "Engage with local authorities to ensure readiness for retail cannabis market entry and compliance.",
-      "verification": "unverified",
-      "publisher": "The Virginian-Pilot",
-      "source_type": "news"
+      "headline": "Schedule III and Section 280E",
+      "summary": "Monitor official rescheduling actions and tax implications.",
+      "impact": "Monitor official rescheduling actions and tax implications.",
+      "url": "",
+      "display_type": "watching"
     },
     {
+      "headline": "Federal hemp THC rules",
+      "summary": "Watch effective dates, enforcement, and retailer impacts.",
+      "impact": "Watch effective dates, enforcement, and retailer impacts.",
+      "url": "",
+      "display_type": "watching"
+    }
+  ],
+  "virginia_updates": [
+    {
       "headline": "Virginia launches new unit targeting illegal vapes and intoxicants - News From The States",
-      "summary": "Virginia has established a new enforcement unit focused on combating illegal vape products and intoxicants.",
-      "impact": "Increased regulatory enforcement may affect illicit product markets and compliance standards for legal operators.",
+      "summary": "Virginia has established a new enforcement unit focused on cracking down on illegal vape products and intoxicants, aiming to protect consumers and ensure regulatory compliance.",
+      "impact": "Increased regulatory enforcement may affect product availability and compliance costs for cannabis retailers and distributors in Virginia.",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeVJObDRBR0RZMmczVzB6Y1BGamFybkYyMGJRa2hvM2ZsUkNBVncwQWR3MFVlR3dBWkpZT0pBWVhIQzd4bXp4QS1yYm1ZdEp3RmtnUDNFeFBpRjFtdmtpZkxwWWg5allTOFg2eThfaFBJSWdDemx6c0J2cWhJMkJBQU5KeFBuOGZCWm8zX3dYMFR2UWZCeS1lVXBMM2h3VlVBTXNNMEdoQXhLQUpB?oc=5",
       "date": "2026-11-12T07:04:30+00:00",
       "significant": false,
-      "recommended_action": "Monitor enforcement activities and ensure all products meet legal standards to avoid penalties.",
+      "recommended_action": "Ensure all products comply with state regulations; monitor enforcement actions and adjust inventory and sourcing accordingly.",
       "verification": "unverified",
       "publisher": "News From The States",
-      "source_type": "news"
+      "source_type": "news",
+      "display_type": "new"
+    },
+    {
+      "headline": "Newport News has a to-do list to prepare for retail cannabis sales - The Virginian-Pilot",
+      "summary": "The city of Newport News is actively preparing for the launch of retail cannabis sales, outlining key steps and regulatory measures to facilitate market entry.",
+      "impact": "Potential new retail market opportunities in Newport News for cannabis businesses; early engagement may provide competitive advantages.",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUQ5cUs2MFp5b1ptSkVGR2g4aVpYbUlyb2FLeGY0X2hkSUJSMkxzV2pKZkloQ0JqczhuY0ctdWNRdlF6T3JzM3NMdFNzRk5HV3ZfUi1MT19RcjRxOUktaU5Qd2NiVWdhNnR6WkgwekpwMnhLNDctLXZ4ZHhUY3JQb0xFSUJSNXlRa0V5V3BESlRXUUN1dkV0czJtUWZvMVZoc1FGOWg0UHYxUQ?oc=5",
+      "date": "2026-11-11T21:33:55+00:00",
+      "significant": false,
+      "recommended_action": "Engage with local officials to understand licensing and operational requirements; consider early market entry strategies.",
+      "verification": "unverified",
+      "publisher": "The Virginian-Pilot",
+      "source_type": "news",
+      "display_type": "new"
+    },
+    {
+      "headline": "15 Important Cannabis Policy Dates to Watch Before the End of 2026 - The Marijuana Herald",
+      "summary": "A summary of key cannabis policy dates in Virginia and other states to watch before the end of 2026, highlighting regulatory deadlines and legislative sessions.",
+      "impact": "Important for strategic planning and compliance timing for cannabis businesses operating or expanding in Virginia.",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX3pMWjlXd3JZWTU1cG9Dd1hkOEwxdEV1dHFiZUdrcDRRVHRrYjJTMHhzNGlpOEg1ZGdMVDRDM3h0R1YyNXR0N0pMaDhkV083Qkxxb0J5WkFiQjlBRjV6YlA2UnUyaWpJQUZYTzVHLUs1ZVNSbkhsYXp4RUxPUjhxdk5ZVEJsMmhwUG5xazBSYV9qM3ZodkxIblNuTGZoZUFsN0F0SFJkb3BkQQ?oc=5",
+      "date": "2026-11-11T23:06:37+00:00",
+      "significant": false,
+      "recommended_action": "Track these dates for compliance and advocacy opportunities; align business operations with upcoming regulatory changes.",
+      "verification": "unverified",
+      "publisher": "The Marijuana Herald",
+      "source_type": "news",
+      "display_type": "new"
     }
   ],
   "virginia": {
-    "headline": "Newport News has a to-do list to prepare for retail cannabis sales - The Virginian-Pilot",
-    "summary": "Newport News is preparing for the launch of retail cannabis sales with a detailed action plan.",
-    "impact": "Retailers and stakeholders in Newport News should anticipate new market opportunities and regulatory compliance requirements.",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVUQ5cUs2MFp5b1ptSkVGR2g4aVpYbUlyb2FLeGY0X2hkSUJSMkxzV2pKZkloQ0JqczhuY0ctdWNRdlF6T3JzM3NMdFNzRk5HV3ZfUi1MT19RcjRxOUktaU5Qd2NiVWdhNnR6WkgwekpwMnhLNDctLXZ4ZHhUY3JQb0xFSUJSNXlRa0V5V3BESlRXUUN1dkV0czJtUWZvMVZoc1FGOWg0UHYxUQ?oc=5",
-    "date": "2026-11-11T21:33:55+00:00",
+    "headline": "Virginia launches new unit targeting illegal vapes and intoxicants - News From The States",
+    "summary": "Virginia has established a new enforcement unit focused on cracking down on illegal vape products and intoxicants, aiming to protect consumers and ensure regulatory compliance.",
+    "impact": "Increased regulatory enforcement may affect product availability and compliance costs for cannabis retailers and distributors in Virginia.",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeVJObDRBR0RZMmczVzB6Y1BGamFybkYyMGJRa2hvM2ZsUkNBVncwQWR3MFVlR3dBWkpZT0pBWVhIQzd4bXp4QS1yYm1ZdEp3RmtnUDNFeFBpRjFtdmtpZkxwWWg5allTOFg2eThfaFBJSWdDemx6c0J2cWhJMkJBQU5KeFBuOGZCWm8zX3dYMFR2UWZCeS1lVXBMM2h3VlVBTXNNMEdoQXhLQUpB?oc=5",
+    "date": "2026-11-12T07:04:30+00:00",
     "significant": false,
-    "recommended_action": "Engage with local authorities to ensure readiness for retail cannabis market entry and compliance.",
+    "recommended_action": "Ensure all products comply with state regulations; monitor enforcement actions and adjust inventory and sourcing accordingly.",
     "verification": "unverified",
-    "publisher": "The Virginian-Pilot",
-    "source_type": "news"
+    "publisher": "News From The States",
+    "source_type": "news",
+    "display_type": "new"
   },
+  "virginia_watching": [
+    {
+      "headline": "Adult-use retail licensing",
+      "summary": "Watch legislation, licensing rules, and market-entry timing.",
+      "impact": "Watch legislation, licensing rules, and market-entry timing.",
+      "url": "",
+      "display_type": "watching"
+    }
+  ],
   "florida_updates": [
     {
+      "headline": "The cannabis packaging mistakes putting operators and retailers at risk - MJBizDaily",
+      "summary": "Operators and retailers in Florida face risks due to common cannabis packaging mistakes that could lead to regulatory violations and penalties.",
+      "impact": "Potential compliance risks that could affect retail operations and brand reputation in Florida.",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVY1NXhiUHYwMDVQTUtRaE9ESEh6Uk1FSkt5TFdKamhuLXQ5ZmtfVUplbmloOVNLVEVKTnFyaWhaelNhc09xUGJQelYyeTd4T3lMRHgyLV9ta1dPS1h1SkZHRjNBd1RfSGU0SWIzak9qdXBzU1UwTE12bDV0eVhqbzhFdVJYTG9HSzFxTjhzZnYwdFlickt3YS1PbWNxdm5DNVJvS2lSZm1lMFk?oc=5",
+      "date": "2026-11-12T11:33:06+00:00",
+      "significant": false,
+      "recommended_action": "Review and update packaging protocols to ensure compliance with Florida regulations; train staff on packaging requirements.",
+      "verification": "unverified",
+      "publisher": "MJBizDaily",
+      "source_type": "news",
+      "display_type": "new"
+    },
+    {
+      "headline": "Philadelphia Kratom and Hemp Ban Takes Effect Nov. 12 - Hoodline",
+      "summary": "Philadelphia's ban on kratom and hemp products took effect on November 12, impacting retailers and consumers in the area.",
+      "impact": "While not Florida-specific, this reflects broader regulatory trends that Florida operators should monitor for potential local restrictions.",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQa29WTmd5VXdLN2F5VW5HTVI4RWJXVHV5NnAwVXB0YXJFME1DMlFVX0ZNWGRfMV9lcGp5WThHUTk1ejE2ZVR1Sk16emZnRGxORkR6ZllXWXhXa1FZbmxtN0k3QU40XzRUWVotR0pYUkltU2toLWw3Sy1ya1pjY1F2WURidU9LUzFaLV9ZX2R0UTd4QU9nem1ya3V5Y01saDdlVm9zVXpWQnEwdjdNVmQ1dmZNc3U?oc=5",
+      "date": "2026-11-12T18:42:57+00:00",
+      "significant": false,
+      "recommended_action": "Monitor local regulatory developments in Florida and other states; prepare for potential similar bans or restrictions.",
+      "verification": "unverified",
+      "publisher": "Hoodline",
+      "source_type": "news",
+      "display_type": "new"
+    },
+    {
       "headline": "Meet Christine Senne: Vicente LLP’s Newest Florida-based Regulatory Attorney - Vicente LLP",
-      "summary": "Vicente LLP has added Christine Senne as a regulatory attorney based in Florida, enhancing their cannabis regulatory expertise.",
-      "impact": "Cannabis businesses in Florida may benefit from enhanced legal and regulatory guidance.",
+      "summary": "Vicente LLP announced the addition of Christine Senne as a Florida-based regulatory attorney specializing in cannabis law.",
+      "impact": "Access to specialized legal expertise can benefit Florida cannabis businesses navigating complex regulations.",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaFIydHgtM1RxX3ZORjNNXzloWEdyU3F0UlBwb281QVBqSG1rM3ZocjgtU1ZLSHdSUzlhOFNJWnhJdjhuaVlYWTBKRGQxbE0tdGhfR1ZXOG9hNTlYcUd0WEtxNnlJR05zaEZ0enQwYlV3NVNobDVLR0tJRC0xOE5xc0tIUmZrbXB4UG9leUV6cGpUMG5XX184MDI4MmNJVjlPUlZJMXlpU1pITW8?oc=5",
       "date": "2026-11-11T00:16:04+00:00",
       "significant": false,
-      "recommended_action": "Consider consulting with regulatory experts like Vicente LLP for compliance and licensing guidance in Florida.",
+      "recommended_action": "Consider consulting with specialized regulatory attorneys to ensure compliance and strategic planning in Florida.",
       "verification": "unverified",
       "publisher": "Vicente LLP",
-      "source_type": "news"
+      "source_type": "news",
+      "display_type": "new"
     }
   ],
   "florida": {
-    "headline": "Meet Christine Senne: Vicente LLP’s Newest Florida-based Regulatory Attorney - Vicente LLP",
-    "summary": "Vicente LLP has added Christine Senne as a regulatory attorney based in Florida, enhancing their cannabis regulatory expertise.",
-    "impact": "Cannabis businesses in Florida may benefit from enhanced legal and regulatory guidance.",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaFIydHgtM1RxX3ZORjNNXzloWEdyU3F0UlBwb281QVBqSG1rM3ZocjgtU1ZLSHdSUzlhOFNJWnhJdjhuaVlYWTBKRGQxbE0tdGhfR1ZXOG9hNTlYcUd0WEtxNnlJR05zaEZ0enQwYlV3NVNobDVLR0tJRC0xOE5xc0tIUmZrbXB4UG9leUV6cGpUMG5XX184MDI4MmNJVjlPUlZJMXlpU1pITW8?oc=5",
-    "date": "2026-11-11T00:16:04+00:00",
+    "headline": "The cannabis packaging mistakes putting operators and retailers at risk - MJBizDaily",
+    "summary": "Operators and retailers in Florida face risks due to common cannabis packaging mistakes that could lead to regulatory violations and penalties.",
+    "impact": "Potential compliance risks that could affect retail operations and brand reputation in Florida.",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVY1NXhiUHYwMDVQTUtRaE9ESEh6Uk1FSkt5TFdKamhuLXQ5ZmtfVUplbmloOVNLVEVKTnFyaWhaelNhc09xUGJQelYyeTd4T3lMRHgyLV9ta1dPS1h1SkZHRjNBd1RfSGU0SWIzak9qdXBzU1UwTE12bDV0eVhqbzhFdVJYTG9HSzFxTjhzZnYwdFlickt3YS1PbWNxdm5DNVJvS2lSZm1lMFk?oc=5",
+    "date": "2026-11-12T11:33:06+00:00",
     "significant": false,
-    "recommended_action": "Consider consulting with regulatory experts like Vicente LLP for compliance and licensing guidance in Florida.",
+    "recommended_action": "Review and update packaging protocols to ensure compliance with Florida regulations; train staff on packaging requirements.",
     "verification": "unverified",
-    "publisher": "Vicente LLP",
-    "source_type": "news"
+    "publisher": "MJBizDaily",
+    "source_type": "news",
+    "display_type": "new"
   },
-  "tennessee_updates": [],
+  "florida_watching": [
+    {
+      "headline": "Hemp THC retail restrictions",
+      "summary": "Watch enacted rules, effective dates, and enforcement.",
+      "impact": "Watch enacted rules, effective dates, and enforcement.",
+      "url": "",
+      "display_type": "watching"
+    }
+  ],
+  "tennessee_updates": [
+    {
+      "headline": "Hemp law takes effect for some; others fight rules driving business closures - The Center Square",
+      "summary": "New hemp laws in Tennessee have taken effect for some operators, while others are contesting rules that are causing business closures.",
+      "impact": "Regulatory uncertainty and enforcement actions may disrupt hemp businesses in Tennessee, affecting supply and operations.",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWJKZlUweFNKSHduUEpJX0FMMU1LYnYtcFdiaDhpWmdUN3dWVWNKNnNfdWU5eG1XTEJ5RS0xZnhmTmhJQWswMDVsZ0gwWExnRUhoNVAtNlZlNHRPMG9RSFh6dFZhX0gyTW8xZnNuSHZLS25yODBIWHZEUXc0ZFRqSnlnSjVJNzRLNWxwOWpFRmlDMnRq0gGaAUFVX3lxTE9RcUR3V3pqQXJaYUNNaGt4SW9MTk1SeWxrQnJkU3d3c285ZnJzMl9hZG5ETXBPVnY4a0lPMkpwaWZzRVJBcEc0RUVNUXRuU1REdHYyNTB3QXZJczkwZkRFSEhkWmlWTVUzOTZsWlVOa1F4SjdqcXYxZ3dXbHRkLUMxbHVuVFpWSkZ5RDhEakU1YzJkYnFUVU45QWc?oc=5",
+      "date": "2026-11-12T19:30:00+00:00",
+      "significant": false,
+      "recommended_action": "Stay informed on evolving hemp regulations; engage with industry groups and legal counsel to mitigate risks.",
+      "verification": "unverified",
+      "publisher": "The Center Square",
+      "source_type": "news",
+      "display_type": "new"
+    },
+    {
+      "headline": "Cape Girardeau hemp shop to close as new Missouri law takes effect - KFVS12",
+      "summary": "A hemp shop in Cape Girardeau, Missouri, is closing due to new state laws taking effect, reflecting regulatory challenges in the region.",
+      "impact": "While Missouri-specific, this highlights regional regulatory risks that Tennessee hemp businesses should monitor.",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMzNPQ1lNbGtnZ082aERXVkZyVDhkUmtwQnl3NXNQM2ZheVZvbmszODZKOE5FblRVTWpmcnpWSHoyQUVfVFpIYktVOWhPVGgxdV8yWnBFeUVuX0tSWGdMTnV1QVlGWWdsbE0ybXhGWHN1SUxweHFWd0l5Q2U1YjdDWGlDZGwxYUVoZ05mcjVGRkRoYjJFTFppSWVBMNIBrwFBVV95cUxPVmR6d2l5NGU4cFZKY1V0bW52NHpCYkhmbkJ4dnBWa0gtQk5mSTdfMGtQZ1NFSzZjM1N2eUdhRTdlNzF3MC1HUFVzeXExMlVDSU5PT1YtUXpoR212cW13TFdVM08zQ0xtaEFzRUVuZ1lxbWhqT1Z4c0ZTRXVIbExRVnEzS1RYdjF5MjlCaGQwY1ZfbGZsSi1Jb0pHdmpDbEY2WmxnSDczbjdONXhvWS00?oc=5",
+      "date": "2026-11-11T23:55:00+00:00",
+      "significant": false,
+      "recommended_action": "Monitor neighboring state regulatory changes for potential cross-border impacts; adjust business plans accordingly.",
+      "verification": "unverified",
+      "publisher": "KFVS12",
+      "source_type": "news",
+      "display_type": "new"
+    },
+    {
+      "headline": "Missouri restrictions on intoxicating hemp products take effect Thursday - KOMU 8",
+      "summary": "Missouri has implemented new restrictions on intoxicating hemp products, affecting businesses operating in or near the state.",
+      "impact": "Potential supply chain and regulatory challenges for Tennessee hemp businesses sourcing from or selling into Missouri.",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdlRHbDhnZXpvaTk0ZjBtaUVMWVQ5Q0x6WVJabHhGVlRMTWNJR3Nfa1czSk05YVZPNkRNSVhYT1pEd1hPalRBd1FtWGZrLTJnWVAxSEJaa2NHeGpDdXREaG5GM2Q3TS13NElSZGlORXVzUFZiMFF5MXJXQ3d4VE44NmRJVGZ3a3NOcXE0Z2dYSm85VnF5QTlVUnRaN2lLN3M3eFRYS2lDWXNvSGsxYWRVbEFUVkI5U2F1THRWcGtDNTlVa3Y1TGpiTkpoQWI1Z0pGVW5KNWZyd0NpTTZTNUhXWjg2cm1zY2RTSkE?oc=5",
+      "date": "2026-11-11T23:00:00+00:00",
+      "significant": false,
+      "recommended_action": "Evaluate product compliance and sourcing strategies in light of new restrictions; consider alternative suppliers or product lines.",
+      "verification": "unverified",
+      "publisher": "KOMU 8",
+      "source_type": "news",
+      "display_type": "new"
+    }
+  ],
   "tennessee": {
-    "headline": "No verified change",
-    "summary": "",
-    "impact": "",
-    "url": "",
+    "headline": "Hemp law takes effect for some; others fight rules driving business closures - The Center Square",
+    "summary": "New hemp laws in Tennessee have taken effect for some operators, while others are contesting rules that are causing business closures.",
+    "impact": "Regulatory uncertainty and enforcement actions may disrupt hemp businesses in Tennessee, affecting supply and operations.",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWJKZlUweFNKSHduUEpJX0FMMU1LYnYtcFdiaDhpWmdUN3dWVWNKNnNfdWU5eG1XTEJ5RS0xZnhmTmhJQWswMDVsZ0gwWExnRUhoNVAtNlZlNHRPMG9RSFh6dFZhX0gyTW8xZnNuSHZLS25yODBIWHZEUXc0ZFRqSnlnSjVJNzRLNWxwOWpFRmlDMnRq0gGaAUFVX3lxTE9RcUR3V3pqQXJaYUNNaGt4SW9MTk1SeWxrQnJkU3d3c285ZnJzMl9hZG5ETXBPVnY4a0lPMkpwaWZzRVJBcEc0RUVNUXRuU1REdHYyNTB3QXZJczkwZkRFSEhkWmlWTVUzOTZsWlVOa1F4SjdqcXYxZ3dXbHRkLUMxbHVuVFpWSkZ5RDhEakU1YzJkYnFUVU45QWc?oc=5",
+    "date": "2026-11-12T19:30:00+00:00",
     "significant": false,
-    "date": "",
-    "recommended_action": "",
-    "verification": "unverified"
+    "recommended_action": "Stay informed on evolving hemp regulations; engage with industry groups and legal counsel to mitigate risks.",
+    "verification": "unverified",
+    "publisher": "The Center Square",
+    "source_type": "news",
+    "display_type": "new"
   },
+  "tennessee_watching": [
+    {
+      "headline": "THCA and intoxicating hemp rules",
+      "summary": "Watch licensing, restrictions, and enforcement.",
+      "impact": "Watch licensing, restrictions, and enforcement.",
+      "url": "",
+      "display_type": "watching"
+    }
+  ],
   "texas_updates": [
     {
       "headline": "Texas Officials Say Cannabis Reform Is A Priority For 2027 Session And Tout Hemp As 'Saving Grace' For Farmers - Marijuana Moment",
-      "summary": "Texas officials have declared cannabis reform a legislative priority for 2027, highlighting hemp's role in supporting farmers.",
-      "impact": "Potential legislative changes could open new markets and improve conditions for hemp and cannabis businesses in Texas.",
+      "summary": "Texas officials have identified cannabis reform as a legislative priority for the 2027 session, emphasizing hemp's role as a critical crop for farmers.",
+      "impact": "Potential for significant regulatory changes and market expansion in Texas; opportunities for hemp and cannabis businesses.",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejF0X3pEN25Fek5WTi03bHpqUDlXbG0tMnRLMUNlTExIVTRINkhkeE56Unh2ZEduT1AyTUlMWVBsWmxXQ2c4N1M1TTUyY2Z6TjlZZDB5RXZTRFpyclAxeUFWYkJOcEFha0k1cG9MdUhINTdTOC1CRm8xTjNER052dFVZZEJ4MGFTNTQweEhmZS12SVc2bTFDLWk3WF92bWNIcHZDcFVKRzF2QmthRkFnT0EwSHJZSG5halZTbU8xeFpWcWNtUmx1YlJmVTZtUjR6bGxKcHctV0k?oc=5",
       "date": "2026-11-12T18:09:29+00:00",
       "significant": false,
-      "recommended_action": "Prepare for potential regulatory changes and engage with policymakers to influence cannabis reform.",
+      "recommended_action": "Engage with policymakers and industry groups to influence reform; prepare for potential market entry or expansion in Texas.",
       "verification": "unverified",
       "publisher": "Marijuana Moment",
-      "source_type": "news"
+      "source_type": "news",
+      "display_type": "new"
     },
     {
-      "headline": "Texas Democrats file to legalize marijuana after historic win. Then residents see they can grow 12 plants at home: 'do we legalize it altogether?' - We Got This Covered",
-      "summary": "Following election wins, Texas Democrats have filed marijuana legalization bills and residents are considering home cultivation rights.",
-      "impact": "Growing political momentum for legalization could lead to expanded cannabis access and home growing permissions.",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNMEU2cnZ0VWtWa1FKTXVYTGtzSEtuVk1QSW81UC1uV0I3NG55VDh0SHMteDdkRmhWSnViclJlQ0REcGZ5U3dOcWw1T2V1d3dDMXNFbnh0M1BVdnNYTmVXckM2MktGdWhhOFpJcGw3c2pHbi0ydHA0MVFKZmNiZFJ6bml4S1J0OEU3X0I4U3dpbmMxR21GQUU1Q19mRk5RQ1RHUVBtamNYQ2RiUGRqRG1EQ2R6a2NwbER0ZHRVeFFVRzhMZzN2TFR0cEE5VUlKZEdaWmdhN0Zmb3Z5S0FJZTRpUkNtM0ZUUGtPWkZ6NlZxSWlYYzA3UmlSYWJaZUllM0otMkRjQ0lHMA?oc=5",
-      "date": "2026-11-11T18:00:00+00:00",
+      "headline": "Multiple Adult-Use Cannabis Legalization Bills Pre-Filed In Texas - Ganjapreneur",
+      "summary": "Several bills to legalize adult-use cannabis have been pre-filed in Texas ahead of the 2027 legislative session, signaling growing momentum for reform.",
+      "impact": "Potential future legalization could open a large new market; early awareness is critical for strategic positioning.",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQekZ2aWl4bUdjekhYQ09VanNEZ0hLNFNUWUZLOXlQRjFfSW80eW10SEQzZkwtNHJqdWhFbkp1VHhPa2pvYUFycEw1STRWeHk5Nk9oRlluZkQzZkt0NnVDZE9sM3hhdk83UG43dWJrNWM3VFR5aENBTjktNUR3UmRCdTVHc2puNDF3Q05fNmxJU25QNTNfc0E?oc=5",
+      "date": "2026-11-11T15:03:08+00:00",
       "significant": false,
-      "recommended_action": "Engage with advocacy groups and policymakers to support legalization efforts and prepare for market changes.",
+      "recommended_action": "Monitor legislative developments closely; build relationships with lawmakers and advocacy groups; prepare for market entry.",
       "verification": "unverified",
-      "publisher": "We Got This Covered",
-      "source_type": "news"
+      "publisher": "Ganjapreneur",
+      "source_type": "news",
+      "display_type": "new"
+    },
+    {
+      "headline": "Texas Democrats And Republicans Preview Bipartisan Cooperation On Cannabis For 2027 Session - Marijuana Moment",
+      "summary": "Both Texas Democrats and Republicans are signaling bipartisan cooperation on cannabis reform for the 2027 legislative session.",
+      "impact": "Increased likelihood of meaningful cannabis legislation; potential for a more favorable regulatory environment.",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaW1kTlhQNHhRR0ZHSDZ0WXM2NGlHZmEyWGdheXdVTlpjNUM3YzM2OEVHdEdtREU0czhGOWE4OXZ5TEVCUTVlQzBod0hiU0hSSUNtcXFCeVJFc1ctM24ybGRBWVZIRllEazVpWlk0dWt3c0xKaUZPS1lnMUlVa3NjYm1HZEVqLUU1YVZWbTZjOFJEMjVZWm5XaFd4WUJVMmJvVFVYOVdueDM1RHZxRXJkNlV0Z0xSX2NnVFRUUmVJVXM5QQ?oc=5",
+      "date": "2026-11-11T19:19:25+00:00",
+      "significant": false,
+      "recommended_action": "Engage with bipartisan legislative efforts; advocate for business-friendly policies; prepare for regulatory changes.",
+      "verification": "unverified",
+      "publisher": "Marijuana Moment",
+      "source_type": "news",
+      "display_type": "new"
     },
     {
       "headline": "Texas Recreational Marijuana Legalization Bills Filed: HB 369 and HB 362 Explained - High Times Magazine",
-      "summary": "Two bills, HB 369 and HB 362, have been filed in Texas proposing recreational marijuana legalization.",
-      "impact": "These bills represent formal legislative efforts to legalize recreational cannabis, potentially reshaping the Texas market.",
+      "summary": "Two bills, HB 369 and HB 362, have been filed in Texas proposing recreational marijuana legalization, outlining key provisions and implications.",
+      "impact": "Potential legislative pathway to recreational cannabis market; important for strategic planning and investment decisions.",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQm90TGU0OUhnWWJFYTFOMVlJUUlQRkNyWGdVYmg3Y1NDSUNmY19oS1lRMldkOW4xU0w1QmJ3UjBjRUUxYTV6cUpoM1I0Nk9RS0tWSm96T3duX1dlR3NDbmRhbVpVdVBzZElNZjYyQlRBZGF2bmUxZk01aXZpU2NVS1JHTjFqbFpFeVY4eg?oc=5",
       "date": "2026-11-10T16:57:01+00:00",
       "significant": false,
-      "recommended_action": "Track bill developments and assess potential impacts on business operations and market strategy.",
+      "recommended_action": "Analyze bill provisions; engage with stakeholders; prepare for potential market changes.",
       "verification": "unverified",
       "publisher": "High Times Magazine",
-      "source_type": "news"
+      "source_type": "news",
+      "display_type": "new"
     },
     {
-      "headline": "Texas Bill Would Ban Marijuana Drug Testing for Most State and Local Government Employees - The Marijuana Herald",
-      "summary": "A bill has been introduced in Texas to prohibit marijuana drug testing for most state and local government employees.",
-      "impact": "This could reduce employment barriers related to cannabis use for government workers and influence workplace policies.",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RSWJjNHpyYlE3LUVtNGhmNEZMazEyTU1kTUtudXdDSUppbHRPR3RxRkVzSGFybkVJVFJkYzhkdnQ2YWdkZ0FXTWFPM29zYWVvWXQ4YmJlYURjblJVcXBDQ1BOV2x5cDB6SWpRNjNtSng?oc=5",
-      "date": "2026-11-10T15:10:14+00:00",
+      "headline": "Texas bills target Flock cameras, THC workplace rules, school funding and data center water use - FOX 26 Houston",
+      "summary": "Texas lawmakers have filed bills addressing various issues including THC workplace regulations, which could impact cannabis businesses.",
+      "impact": "Potential changes in workplace THC policies may affect employee management and compliance.",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLVNUNjQzcDctd1d5eGdkRUVobVZJekJQLUdDWDNBZkN6Um53WUpBeWJGbDY3RTBPT19CdVlZVFhPWmJyaHJkVFMwQUNSdG1CM3Y0MXYzcE1DRjFQZ3NFU3NrdkJqQnVUQXFWQk5CM3lqbW5YZHhWLUQzSXF5WEdad0wxOElFeTNhZC1mbEtreVVzd0hYLXE2N25sLWFlY0tMRXdYLWQteHc3OW1WbG1LOVNyWmJFMVEzQk5yQUllNnM?oc=5",
+      "date": "2026-11-11T00:49:35+00:00",
       "significant": false,
-      "recommended_action": "Review and update employment policies in anticipation of potential changes to drug testing regulations.",
+      "recommended_action": "Monitor workplace THC regulations; update HR policies and training to ensure compliance.",
       "verification": "unverified",
-      "publisher": "The Marijuana Herald",
-      "source_type": "news"
-    },
-    {
-      "headline": "Texas Democrats file to legalize adult-use cannabis and home growing - Audacy",
-      "summary": "Texas Democrats have filed bills proposing legalization of adult-use cannabis and home cultivation.",
-      "impact": "If passed, these bills could significantly expand the legal cannabis market and consumer rights in Texas.",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQXzJRWVJDbmR1c29LMTBKeEFESkhlWFc3RmhKeF9EUUJENFR6dFFrVXp3VUtRTHkwenpWRXNnS0R0UVp6WnVlN05xTGFILW82UFBYRmZnZDk1b1J4amE3Z2poNjNnVmd2UFJYdnlmU09SSXdPTnlqR2dOVHlVLV9qQ0FTYTlYZ1N5U3dDdGNrbVlsVWtna2ZFZHVRV1VOck5OdGJGREVvLVJDT0lNZHpYVGZCTQ?oc=5",
-      "date": "2026-11-10T12:09:00+00:00",
-      "significant": false,
-      "recommended_action": "Monitor legislative progress and prepare for market changes related to adult-use legalization and home growing.",
-      "verification": "unverified",
-      "publisher": "Audacy",
-      "source_type": "news"
+      "publisher": "FOX 26 Houston",
+      "source_type": "news",
+      "display_type": "new"
     }
   ],
   "texas": {
     "headline": "Texas Officials Say Cannabis Reform Is A Priority For 2027 Session And Tout Hemp As 'Saving Grace' For Farmers - Marijuana Moment",
-    "summary": "Texas officials have declared cannabis reform a legislative priority for 2027, highlighting hemp's role in supporting farmers.",
-    "impact": "Potential legislative changes could open new markets and improve conditions for hemp and cannabis businesses in Texas.",
+    "summary": "Texas officials have identified cannabis reform as a legislative priority for the 2027 session, emphasizing hemp's role as a critical crop for farmers.",
+    "impact": "Potential for significant regulatory changes and market expansion in Texas; opportunities for hemp and cannabis businesses.",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOejF0X3pEN25Fek5WTi03bHpqUDlXbG0tMnRLMUNlTExIVTRINkhkeE56Unh2ZEduT1AyTUlMWVBsWmxXQ2c4N1M1TTUyY2Z6TjlZZDB5RXZTRFpyclAxeUFWYkJOcEFha0k1cG9MdUhINTdTOC1CRm8xTjNER052dFVZZEJ4MGFTNTQweEhmZS12SVc2bTFDLWk3WF92bWNIcHZDcFVKRzF2QmthRkFnT0EwSHJZSG5halZTbU8xeFpWcWNtUmx1YlJmVTZtUjR6bGxKcHctV0k?oc=5",
     "date": "2026-11-12T18:09:29+00:00",
     "significant": false,
-    "recommended_action": "Prepare for potential regulatory changes and engage with policymakers to influence cannabis reform.",
+    "recommended_action": "Engage with policymakers and industry groups to influence reform; prepare for potential market entry or expansion in Texas.",
     "verification": "unverified",
     "publisher": "Marijuana Moment",
-    "source_type": "news"
+    "source_type": "news",
+    "display_type": "new"
   },
+  "texas_watching": [
+    {
+      "headline": "Medical cannabis expansion and licensing",
+      "summary": "Watch license opportunities and program expansion.",
+      "impact": "Watch license opportunities and program expansion.",
+      "url": "",
+      "display_type": "watching"
+    },
+    {
+      "headline": "Hemp THC and 2027 reform",
+      "summary": "Watch regulatory changes and legislative proposals.",
+      "impact": "Watch regulatory changes and legislative proposals.",
+      "url": "",
+      "display_type": "watching"
+    }
+  ],
   "alerts": [],
   "alert_count": 0,
   "errors": [],
-  "source_success_count": 29,
-  "article_count": 51,
+  "source_success_count": 22,
+  "article_count": 90,
   "category_source_success": {
-    "michigan": 10,
-    "federal": 8,
+    "michigan": 6,
+    "federal": 6,
     "virginia": 3,
     "florida": 2,
     "tennessee": 2,
-    "texas": 4
+    "texas": 3
   }
 }
